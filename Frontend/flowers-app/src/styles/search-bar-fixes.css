@@ -1,0 +1,84 @@
+/* Stiluri suplimentare pentru bara de căutare */
+
+/* Asigură că întregul chenar are colțuri rotunjite */
+.search-bar,
+.search-bar .input-group,
+.search-bar .form-control,
+.search-bar .btn,
+.search-bar .search-input-group {
+  border-radius: 30px !important;
+  overflow: hidden;
+}
+
+/* Ajustează look-ul input field-ului */
+.search-bar .form-control {
+  height: 50px;
+  padding-left: 45px;
+  border: 2px solid #ddd;
+  box-shadow: none;
+  transition: all 0.3s ease;
+}
+
+.search-bar .form-control:focus {
+  border-color: #e91e63;
+  box-shadow: 0 0 0 0.25rem rgba(233, 30, 99, 0.25);
+}
+
+/* Stiluri pentru butonul de căutare */
+.search-button,
+.btn-custom-primary.search-button {
+  border-radius: 30px !important;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  padding: 7px 20px;
+  transition: all 0.3s ease;
+  background-color: #e91e63;
+  border-color: #e91e63;
+}
+
+.search-button:hover,
+.search-button:focus,
+.search-button:active,
+.btn-custom-primary.search-button:hover,
+.btn-custom-primary.search-button:focus,
+.btn-custom-primary.search-button:active {
+  background-color: #c2185b !important;
+  border-color: #c2185b !important;
+  transform: translateY(-50%) scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Asigură-te că iconița din buton nu are fundal alb la hover */
+.search-button i,
+.search-button:hover i,
+.search-button:focus i,
+.search-button:active i {
+  color: white !important;
+  background-color: transparent !important;
+}
+
+/* Stil pentru iconița de floare */
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #e91e63;
+  z-index: 10;
+}
+
+/* Stiluri pentru întregul formular */
+.search-bar {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Efect global de hover pentru bară */
+.search-bar:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}

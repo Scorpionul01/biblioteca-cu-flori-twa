@@ -1,0 +1,57 @@
+/* Stiluri îmbunătățite pentru badge-uri de culori și semnificații */
+
+/* Stiluri generale badge */
+.badge-custom {
+  font-size: 0.85rem;
+  padding: 6px 15px;
+  border-radius: 20px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.badge-custom:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Badge pentru culori - fundal gri deschis, text gri închis */
+.badge-color {
+  background-color: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  color: #424242; /* Text gri închis pentru toate culorile */
+}
+
+/* Badge pentru semnificații - fundal gri închis, text alb */
+.badge-meaning {
+  background-color: #424242;
+  color: white;
+  border: 1px solid #212121;
+}
+
+/* Culori specifice - toate au text gri închis */
+.badge-color.badge-rosu, .badge-color.badge-red,
+.badge-color.badge-galben, .badge-color.badge-yellow,
+.badge-color.badge-albastru, .badge-color.badge-blue,
+.badge-color.badge-roz, .badge-color.badge-pink,
+.badge-color.badge-verde, .badge-color.badge-green,
+.badge-color.badge-mov, .badge-color.badge-purple,
+.badge-color.badge-portocaliu, .badge-color.badge-orange,
+.badge-color.badge-alb, .badge-color.badge-white,
+.badge-color.badge-negru, .badge-color.badge-black {
+  color: #424242; /* Text gri închis pentru toate */
+}
+
+/* Semnificații specifice - toate cu fundal gri închis, text alb */
+.badge-meaning.badge-dragoste, .badge-meaning.badge-love,
+.badge-meaning.badge-fericire, .badge-meaning.badge-happiness,
+.badge-meaning.badge-noroc, .badge-meaning.badge-luck,
+.badge-meaning.badge-prietenie, .badge-meaning.badge-friendship,
+.badge-meaning.badge-respect, .badge-meaning.badge-respect {
+  background-color: #424242;
+  color: white;
+  border-color: #212121;
+}

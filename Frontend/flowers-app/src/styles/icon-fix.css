@@ -1,0 +1,41 @@
+/* Stiluri pentru a rezolva problema cu iconița cu fundal alb */
+
+/* Asigură-te că toate iconițele din butoane au culoarea corectă */
+button i,
+.btn i,
+.btn-custom-primary i,
+.search-button i {
+  color: inherit !important;
+  background-color: transparent !important;
+}
+
+/* Stiluri specifice pentru hover */
+button:hover i,
+.btn:hover i,
+.btn-custom-primary:hover i,
+.search-button:hover i {
+  color: inherit !important;
+  background-color: transparent !important;
+}
+
+/* Asigură-te că iconița de floare are culoarea corectă */
+.search-icon i {
+  color: #e91e63;
+  font-size: 1.1rem;
+}
+
+/* Stiluri pentru a corecta probleme CSS Bootstrap */
+.btn > * {
+  background-color: transparent !important;
+}
+
+/* Adaugă un stil specific pentru butonul de căutare */
+.btn-custom-primary.search-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-custom-primary.search-button > * {
+  background-color: transparent !important;
+}

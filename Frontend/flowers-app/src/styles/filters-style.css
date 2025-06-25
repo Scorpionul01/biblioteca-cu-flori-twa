@@ -1,0 +1,65 @@
+.filter-title {
+  font-family: 'Playfair Display', serif;
+  color: #e91e63;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  position: relative;
+  padding-bottom: 0.8rem;
+}
+
+.filter-title:after {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 2px;
+  bottom: 0;
+  left: 20%;
+  background: linear-gradient(90deg, transparent, #e91e63, transparent);
+}
+
+.filter-title i {
+  margin-right: 10px;
+  color: #e91e63;
+  font-size: 1.2rem;
+}
+
+.filters-card {
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.filters-card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+}
+
+.filters-card .card-body {
+  padding: 25px;
+}
+
+.form-label-custom {
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 0.7rem;
+  font-size: 1rem;
+}
+
+.form-control-custom {
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  padding: 12px 15px;
+  transition: all 0.3s ease;
+  background-color: #f9f9f9;
+}
+
+.form-control-custom:focus {
+  border-color: #e91e63;
+  box-shadow: 0 0 0 3px rgba(233, 30, 99, 0.1);
+  background-color: #fff;
+}

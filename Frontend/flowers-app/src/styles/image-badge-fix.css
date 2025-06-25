@@ -1,0 +1,76 @@
+/* Stil care vizează direct badge-urile albastre din imaginea arătată */
+
+/* Stil global pentru toate badge-urile */
+.badge {
+  font-size: 0.85rem !important;
+  padding: 6px 15px !important;
+  border-radius: 20px !important;
+  margin-right: 5px !important;
+  margin-bottom: 5px !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+}
+
+/* Forțează stilul pentru badge-uri de culori pe orice element care seamănă cu badge */
+span.badge,
+button.badge,
+a.badge,
+div.badge,
+.badge-rosu,
+.badge-galben,
+.badge-primary,
+.bg-primary,
+.btn-primary,
+span[class^="badge-"],
+span[class*=" badge-"] {
+  background-color: #f0f0f0 !important;
+  color: #424242 !important;
+  border: 1px solid #e0e0e0 !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Forțează stilul pentru badge-uri de semnificații */
+.badge-secondary,
+.bg-secondary,
+.btn-secondary,
+.badge-dragoste,
+.badge-fericire,
+span.badge.bg-secondary,
+span[class*="badge-meaning"] {
+  background-color: #424242 !important;
+  color: white !important;
+  border: 1px solid #212121 !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Stil pentru elementele care ar putea fi în imaginea de profil */
+.card img + div .badge,
+.card-img-top + div .badge,
+.position-relative .position-absolute .badge {
+  background-color: #f0f0f0 !important; 
+  color: #424242 !important;
+  border: 1px solid #e0e0e0 !important;
+}
+
+/* Stil pentru elementele care ar putea fi în sectiunea de semnificații */
+.card-body .badge,
+.card-text + div .badge {
+  background-color: #424242 !important;
+  color: white !important;
+  border: 1px solid #212121 !important;
+}
+
+/* Abordare brutală - înlocuiește toate culorile Bootstrap */
+[class*="primary"],
+[class*="primary"] * {
+  background-color: #f0f0f0 !important;
+  color: #424242 !important;
+  border-color: #e0e0e0 !important;
+}
+
+[class*="secondary"],
+[class*="secondary"] * {
+  background-color: #424242 !important;
+  color: white !important;
+  border-color: #212121 !important;
+}

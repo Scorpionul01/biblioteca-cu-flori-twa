@@ -1,0 +1,67 @@
+/* Bootstrap Badge Overrides */
+
+/* Culori bootstrap principale pentru toate badge-urile și etichetele vizibile */
+.btn-primary, 
+.badge.bg-primary, 
+.badge-primary,
+.badge-color,
+[class*="btn-outline-"].badge-primary,
+button[class*="badge"],
+span[class*="badge"],
+div[class*="badge"],
+a[class*="badge"],
+[class*="btn-"].badge,
+.badge-rosu, .badge-red,
+.badge-galben, .badge-yellow,
+.badge-albastru, .badge-blue,
+.badge-purple, .badge-mov,
+.badge-verde, .badge-green,
+.bg-primary {
+  background-color: #f0f0f0 !important;
+  color: #424242 !important;
+  border-color: #e0e0e0 !important;
+  text-shadow: none !important;
+}
+
+/* Culori bootstrap secundare pentru toate badge-urile și etichetele */
+.btn-secondary, 
+.badge.bg-secondary, 
+.badge-secondary,
+.badge-meaning,
+[class*="btn-outline-"].badge-secondary,
+.bg-secondary,
+.badge-dragoste, 
+.badge-fericire,
+.badge-noroc,
+.badge-prietenie,
+.badge-respect {
+  background-color: #424242 !important;
+  color: white !important;
+  border-color: #212121 !important;
+  text-shadow: none !important;
+}
+
+/* Override pentru toate badge-uri */
+.badge,
+[class*="badge-"],
+[class*="bg-"].badge {
+  font-size: 0.85rem !important;
+  padding: 6px 15px !important;
+  border-radius: 20px !important;
+  margin-right: 5px !important;
+  margin-bottom: 5px !important;
+  display: inline-block !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+}
+
+/* Verifica și aceste variante */
+.position-absolute .badge {
+  background-color: #f0f0f0 !important;
+  color: #424242 !important;
+}
+
+.mb-3 .badge {
+  background-color: #424242 !important;
+  color: white !important;
+}
