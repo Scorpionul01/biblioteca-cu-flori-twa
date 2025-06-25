@@ -1,0 +1,246 @@
+/* Color Filter Styles */
+.color-filter {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.filter-header h4 {
+    color: #2d3748;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.clear-colors-btn {
+    background: #e53e3e;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.clear-colors-btn:hover {
+    background: #c53030;
+    transform: translateY(-1px);
+}
+
+.color-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.color-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    border: 2px solid transparent;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.color-option:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.color-option.selected {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.3);
+    transform: scale(1.05);
+}
+
+.color-name {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-bottom: 4px;
+}
+
+/* Special handling for light colors */
+.color-option[style*="rgb(255, 255, 255)"] .color-name,
+.color-option[style*="#FFFFFF"] .color-name,
+.color-option[style*="#FFD700"] .color-name {
+    color: #2d3748;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.flower-count {
+    font-size: 0.8rem;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+/* Special handling for light colors */
+.color-option[style*="rgb(255, 255, 255)"] .flower-count,
+.color-option[style*="#FFFFFF"] .flower-count,
+.color-option[style*="#FFD700"] .flower-count {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.selected-colors {
+    border-top: 1px solid #e2e8f0;
+    padding-top: 15px;
+    color: #4a5568;
+    font-size: 0.9rem;
+}
+
+.selected-color-tag {
+    display: inline-flex;
+    align-items: center;
+    background: #667eea;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 16px;
+    margin: 0 4px 4px 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.remove-color {
+    background: none;
+    border: none;
+    color: white;
+    margin-left: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+
+.remove-color:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .color-options {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 10px;
+    }
+    
+    .color-option {
+        min-height: 70px;
+    }
+    
+    .color-name {
+        font-size: 0.8rem;
+    }
+    
+    .flower-count {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .filter-header {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    
+    .clear-colors-btn {
+        align-self: flex-end;
+    }
+    
+    .color-options {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    }
+    
+    .color-option {
+        min-height: 60px;
+    }
+    
+    .selected-colors {
+        font-size: 0.8rem;
+    }
+    
+    .selected-color-tag {
+        font-size: 0.7rem;
+    }
+}
+
+/* Animation for color selection */
+@keyframes colorSelect {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+.color-option.selected {
+    animation: colorSelect 0.3s ease;
+}
+
+/* Accessibility improvements */
+.color-option:focus {
+    outline: 2px solid #667eea;
+    outline-offset: 2px;
+}
+
+.color-option:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/* Tooltip styling */
+.color-option {
+    position: relative;
+}
+
+.color-option::after {
+    content: attr(title);
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2d3748;
+    color: white;
+    padding: 6px 8px;
+    border-radius: 6px;
+    font-size: 0.7rem;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+}
+
+.color-option:hover::after {
+    opacity: 1;
+}

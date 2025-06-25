@@ -1,0 +1,117 @@
+.word-cloud-container {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  padding: 30px 30px 40px 30px; /* Increased bottom padding */
+  margin: 30px auto; /* Added auto margins for horizontal centering */
+  width: 100%;
+  max-width: 1200px; /* Added max-width for better display on large screens */
+  position: relative;
+  overflow: visible; /* Changed to visible to prevent clipping */
+  transform-style: preserve-3d;
+}
+
+.cloud-word-center:hover {
+  transform: translate(-50%, -50%) scale(1.2) translateZ(30px) !important;
+  z-index: 1000 !important;
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2);
+  filter: brightness(1.2);
+  box-shadow: none;
+  background: none;
+}
+
+.word-cloud-container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #FF9AA2, #FFB7B2, #FFDAC1, #E2F0CB, #B5EAD7, #C7CEEA);
+  border-radius: 6px 6px 0 0;
+}
+
+.word-cloud-title {
+  color: #444;
+  font-size: 28px;
+  margin-bottom: 8px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.word-cloud-subtitle {
+  color: #777;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.word-cloud {
+  height: 450px;
+  width: 100%;
+}
+
+.word-cloud-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  font-size: 18px;
+  color: #666;
+}
+
+.word-cloud-error {
+  color: #d9534f;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+}
+
+/* Stilizare pentru hover pe cuvinte */
+.word-cloud span:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+/* Stilizare pentru versiunea simplificată a word cloud */
+.simple-word-cloud {
+  position: relative;
+  height: 500px; /* Increased height for more space */
+  width: 100%;
+  overflow: visible; /* Changed from hidden to visible */
+  background-color: #FFFDF9;
+  border-radius: 8px;
+  padding: 40px; /* Increased padding */
+  perspective: 1000px; /* Adds perspective for 3D effect */
+  margin: 0 auto; /* Center the container */
+}
+
+.cloud-word {
+  position: absolute;
+  white-space: nowrap;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  user-select: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+  background: none;
+}
+
+.cloud-word-center {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  background: none;
+  box-shadow: none;
+}
+
+.cloud-word:hover {
+  transform: translate(-50%, -50%) scale(1.2) translateZ(25px) !important;
+  z-index: 1000 !important;
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2);
+  filter: brightness(1.2);
+  box-shadow: none;
+  background: none;
+}
