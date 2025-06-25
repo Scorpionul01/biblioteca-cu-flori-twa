@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/biblioteca-cu-flori/static/css/main.81b3662b.css",
+    "main.js": "/biblioteca-cu-flori/static/js/main.54b39e20.js",
+    "static/js/453.6dc64dde.chunk.js": "/biblioteca-cu-flori/static/js/453.6dc64dde.chunk.js",
+    "static/media/background.png": "/biblioteca-cu-flori/static/media/background.6d5ba7171415ac94f1f6.png",
+    "index.html": "/biblioteca-cu-flori/index.html",
+    "main.81b3662b.css.map": "/biblioteca-cu-flori/static/css/main.81b3662b.css.map",
+    "main.54b39e20.js.map": "/biblioteca-cu-flori/static/js/main.54b39e20.js.map",
+    "453.6dc64dde.chunk.js.map": "/biblioteca-cu-flori/static/js/453.6dc64dde.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81b3662b.css",
+    "static/js/main.54b39e20.js"
+  ]
+}
