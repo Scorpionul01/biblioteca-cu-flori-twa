@@ -1,1 +1,2615 @@
-
+{
+  "metadata": {
+    "source": "FlowersDb",
+    "total_flowers": 128,
+    "extracted_at": "2025-06-16T08:58:15.615367",
+    "server": "DESKTOP-RGN8N36\\SQLEXPRESS01",
+    "database": "FlowersDb"
+  },
+  "flowers": [
+    {
+      "id": 125,
+      "name": " Salcie căprească",
+      "latin_name": "Salix caprea",
+      "description": "Ramura traditionala de Florii cu boboci pufosi. Simbolizeaza renanterea si speranta.",
+      "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSJhjOHNtVU-QVtiaxmkjTArPTJkNdhShodUR24ML-FOBRB50uP",
+      "color_id": 8,
+      "keywords": [
+        "speranta"
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Albastreaua",
+      "latin_name": "Centaurea cyanus",
+      "description": "Floarea nationala a Estoniei, simbolul câmpiei. Simbolizeaza delicatetea si eleganta.",
+      "image_url": "https://joradahl.de/wp-content/uploads/2021/08/101020-02-Centaurea-cyanus-Classic-Fantastic-1-1320x1320.jpg",
+      "color_id": 7,
+      "keywords": [
+        "eleganta"
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Alstroemeria",
+      "latin_name": "Alstroemeria spp.",
+      "description": "Floarea prieteniei devotate din America de Sud, extrem de durabila. Simbolizeaza loialitatea în prietenie.",
+      "image_url": "https://www.thetortoisetable.org.uk/common/files/catalogue/613/large_Alstroemeria_LR_DSCF0862.jpeg",
+      "color_id": 3,
+      "keywords": [
+        "prietenie",
+        "loialitate"
+      ]
+    },
+    {
+      "id": 121,
+      "name": "Amaranthus",
+      "latin_name": "Amaranthus caudatus",
+      "description": "Floare curgatoare cu efect dramatic spectaculos. Simbolizeaza dragostea nemuritoare.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfUEWgwoWF12okG_YAwrE4VVdEyrNEgR_DDvgU1bYGjc-If9HdQMPIYMCoafUn7O7knjivN_VxYp0z_G_PaDFWNg",
+      "color_id": 1,
+      "keywords": [
+        "dragoste"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Anemona",
+      "latin_name": "Anemone coronaria",
+      "description": "Anemona este simbolul tinereții, frumuseții, dragostei, dar poate fi asociată și cu suferința cauzată de pierderea acestora.",
+      "image_url": "https://www.enrose.ro/wp-content/uploads/2021/01/enrose-anemone.jpg",
+      "color_id": 2,
+      "keywords": [
+        "dragoste"
+      ]
+    },
+    {
+      "id": 151,
+      "name": "Aspidistra",
+      "latin_name": "Aspidistra elatior",
+      "description": "Frunzele mari asiatice pentru accent dramatic. Simbolizeaza perseverenta si forta.",
+      "image_url": "https://www.plantdelights.com/cdn/shop/files/Aspidistra-elatior-Morning-Frost.i-7065.s-66581.r-1.jpg?v=1747246090",
+      "color_id": 8,
+      "keywords": []
+    },
+    {
+      "id": 117,
+      "name": "Aster",
+      "latin_name": "Symphyotrichum spp.",
+      "description": "Floarea de toamna cu aspect de margareta. Simbolizeaza dragostea si rabdarea.",
+      "image_url": "https://hort.extension.wisc.edu/files/2024/08/Aster-oblongifolius-October-Skies-CBGlate-summer2-1536x1020.jpg",
+      "color_id": 6,
+      "keywords": [
+        "dragoste"
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Astilbe",
+      "latin_name": "Astilbe chinensis",
+      "description": "Floare cu penaj pufos, perfecta pentru umbra. Simbolizeaza gratia si eleganta delicata.",
+      "image_url": "https://www.gardenia.net/wp-content/uploads/2023/05/astilbe-chinensis-vision.webp",
+      "color_id": 3,
+      "keywords": [
+        "eleganta"
+      ]
+    },
+    {
+      "id": 140,
+      "name": "Azalee",
+      "latin_name": "Rhododendron spp.",
+      "description": "Floarea primaverii în gradinile japoneze. Simbolizeaza temperanta si pasiunea.",
+      "image_url": "https://www.glissandogardencenter.ro/wp-content/uploads/2019/05/Rododendron-Germania.jpg",
+      "color_id": 3,
+      "keywords": [
+        "pasiune"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Banksia",
+      "latin_name": "Banksia spp.",
+      "description": "Floare australiana cu forme cilindrice spectaculoase. Simbolizeaza unicitatea si puterea.",
+      "image_url": "https://www.calyxflowers.com/uploads/banksiacf.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    {
+      "id": 24,
+      "name": "Begonie",
+      "latin_name": "Begonia",
+      "description": "Floarea de begonie simbolizează gândurile negre întrucât este asociată cu avertismentul și precauția.",
+      "image_url": "https://lh7-us.googleusercontent.com/gl3C1ZNfkh43qUiydpPbjRgsnTOVQLf0ydAvigN5AfS2DGZeLExjWbpFSaT1Jgo12ZPFn0lcYDjt7ibVQBahhCHHwMTIAFG_lxdWi0LRbddQjzTpal9EpRiGkonF39X4GiE-cpoUzJogGvrc9HAQZA",
+      "color_id": 1,
+      "keywords": []
+    },
+    {
+      "id": 118,
+      "name": "Black-eyed Susan",
+      "latin_name": "Rudbeckia hirta",
+      "description": "Floarea americana cu contrast dramatic. Simbolizeaza justitia si motivatia.",
+      "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQnhd0bJM-L9YifJ4i3dUnyRqDzkM55DfTgFvZ7gwOQHjYCeDnKK7Aa9Zc3mQ-BAIWjWUz6-3D1xHPeeDGueNyIuw",
+      "color_id": 4,
+      "keywords": []
+    },
+    {
+      "id": 108,
+      "name": "Bougainvillea",
+      "latin_name": "Bougainvillea spectabilis",
+      "description": "Floare tropicala cu bractee colorate spectaculoase. Simbolizeaza pasiunea si energia.",
+      "image_url": "https://magazin.agrii.ro/media/magefan_blog/Bougainvillea_ingrijire.png",
+      "color_id": 3,
+      "keywords": [
+        "pasiune"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Bujor",
+      "latin_name": "Paeonia",
+      "description": "Bujorii roz sunt asociați cu romantismul, prosperitatea și norocul.",
+      "image_url": "https://bulbiromania.ro/wp-content/uploads/2018/04/peony-3004055_1920-e1697141613992-768x768.jpg",
+      "color_id": 3,
+      "keywords": [
+        "romantism"
+      ]
+    },
+    {
+      "id": 128,
+      "name": "Bujorul Moldovei",
+      "latin_name": "Paeonia peregrina",
+      "description": "Floarea nationala neoficiala, mândria Moldovei. Simbolizeaza patriotismul si mândria nationala.",
+      "image_url": "https://www.sor.ro/wp-content/uploads/1971/05/Bujor_romanesc_Pae_per_Nora_Anghelescu1-1536x1536.jpg",
+      "color_id": 1,
+      "keywords": []
+    },
+    {
+      "id": 145,
+      "name": "Bumbac",
+      "latin_name": "Gossypium spp.",
+      "description": "Elementul textural esential rustic si modern. Simbolizeaza comoditatea si naturaletea.",
+      "image_url": "https://bugwoodcloud.org/images/384x256/5544467.jpg",
+      "color_id": 2,
+      "keywords": []
+    },
+    {
+      "id": 28,
+      "name": "Cala",
+      "latin_name": "Zantedeschia aethiopica",
+      "description": "Cala albă simbolizează puritatea, sfințenia și frumusețea elegantă.",
+      "image_url": "https://media.bzi.ro/unsafe/700x700/smart/filters:contrast(5):format(webp)/https://bzi.ro/wp-content/uploads/2022/02/cala-floarea-mortii-9.jpg",
+      "color_id": 2,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    {
+      "id": 126,
+      "name": "Camellia",
+      "latin_name": "Camellia japonica",
+      "description": "Floarea aristocrata de iarna si primavara. Simbolizeaza admiratia si perfectiunea.",
+      "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQD9vQXZDa8c3gTvVnk-eliRpYSjHpYm2o4Db3Sz33JlAuLq-XilLhRWxfw_tajI_IxC9LazL2sJR7dThRvDLCHOA",
+      "color_id": 3,
+      "keywords": []
+    },
+    {
+      "id": 107,
+      "name": "Celosia",
+      "latin_name": "Celosia cristata",
+      "description": "Floare cu texturi de catifea si forme dramatice. Simbolizeaza nemurirea si pasiunea.",
+      "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQpm61sv6uPDius8EkNJ93FbGPdMFEXPpYveG8nEb7-TwWKw6a9Z9V2OzQ5TPQ7YUZVCBuBO4chtl6tA0THAK1jFg",
+      "color_id": 1,
+      "keywords": [
+        "pasiune"
+      ]
+    },
+    {
+      "id": 135,
+      "name": "Cicoare",
+      "latin_name": "Cichorium intybus",
+      "description": "Floarea albastra de la marginea drumurilor. Simbolizeaza frugalitatea si perseverenta.",
+      "image_url": "https://www.naturalherbs.ro/wp-content/uploads/2016/09/Katang_03-683x1024-1440x2158.jpg",
+      "color_id": 7,
+      "keywords": []
+    },
+    {
+      "id": 72,
+      "name": "Clopoțel de Texas",
+      "latin_name": "Eustoma grandiflorum",
+      "description": "Clopoțel de Texas este o floare eleganta cu petale delicate. Simbolizeaza aprecierea, carisma si recunostinta pentru cineva special.",
+      "image_url": "https://www.livrarefloribucuresti.ro/images/flori/large/magia-florilor-de-lisianthus-GSDlI.jpg",
+      "color_id": 6,
+      "keywords": [
+        "eleganta",
+        "recunostinta"
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Cosmos",
+      "latin_name": "Cosmos bipinnatus",
+      "description": "Floare simpla si delicata a verii târzii. Simbolizeaza ordinea si pacea.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZhv6Xl_9b94L2DmjgqRbT6mwuogxJuMypzp6dGErcEj4vVg5R9u_Ml1oSSP2aCiK5n2JeO0ua8YvxNCPrpExJIQ",
+      "color_id": 3,
+      "keywords": [
+        "pace"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Crin Alb",
+      "latin_name": "Lilium candidum",
+      "description": "Crinul alb simbolizează puritatea, virtutea și frumusețea.",
+      "image_url": "https://www.gardenexpert.ro/1483-thickbox_default/crin-alb.jpg",
+      "color_id": 2,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    {
+      "id": 136,
+      "name": "Crin de Padure",
+      "latin_name": "Lilium martagon",
+      "description": "Crinul salbatic din padurile Carpatilor. Simbolizeaza salbaticia si libertatea naturii.",
+      "image_url": "https://images.immediate.co.uk/production/volatile/sites/10/2018/08/4947f571-e086-4bf2-b597-a8a3b0b588c2-0f9b5dc.jpg?quality=90&webp=true&resize=650,434",
+      "color_id": 6,
+      "keywords": []
+    },
+    {
+      "id": 77,
+      "name": "Crin peruan",
+      "latin_name": "Alstroemeria",
+      "description": "Alstroemeria, sau crinul peruvian, este o floare colorata cu petale marcate distinct. Simbolizeaza prietenia, devotamentul ?i sus?inerea reciproca.",
+      "image_url": "https://www.pheasantacreplants.co.uk/cms/wp-content/uploads/2024/07/alstroemeria-summer-break_9451.webp",
+      "color_id": 3,
+      "keywords": [
+        "devotament"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Crin Roz",
+      "latin_name": "Lilium",
+      "description": "Crinul roz este o floare maiestuoasă cu o aromă intensă. Simbolizează prosperitatea, fertilitatea și puritatea. Este asociat cu feminitatea și tinerețea.",
+      "image_url": "https://www.magnolia.ro/blog/images/gallery/semnificatia-crinului-ce-mesaj-transmitem-atunci-cand-il-oferim/crini_roz_buchet.jpg",
+      "color_id": 3,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    {
+      "id": 142,
+      "name": "Crin Tiger",
+      "latin_name": "Lilium lancifolium",
+      "description": "Crinul asian cu pete caracteristice. Simbolizeaza bogatia si prosperitatea.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Lilium_lancifolium_7757.jpg",
+      "color_id": 5,
+      "keywords": []
+    },
+    {
+      "id": 22,
+      "name": "Crizantemă Albă",
+      "latin_name": "Chrysanthemum",
+      "description": "Crizantemele albe simbolizează adevărul și loialitatea. Crizantemele albe pot simboliza puritatea si tristetea.",
+      "image_url": "https://koreafilm.ro/blog/wp-content/uploads/2010/11/crizantema-alba.jpg",
+      "color_id": 2,
+      "keywords": [
+        "tristete",
+        "puritate",
+        "loialitate"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Crizantemă Galbenă",
+      "latin_name": "Chrysanthemum",
+      "description": "Crizantemele galbene pot simboliza iubirea disprețuită sau tristețea.",
+      "image_url": "https://seminteflori.com/wp-content/uploads/2022/03/chrysanthemum-parthenium-dwarf-golden-ball-2.jpg",
+      "color_id": 4,
+      "keywords": [
+        "iubire"
+      ]
+    },
+    {
+      "id": 138,
+      "name": "Crizantema Japoneza",
+      "latin_name": "Chrysanthemum morifolium",
+      "description": "Floarea imperiala japoneza cu forme traditionale. Simbolizeaza longevitatea si onoarea.",
+      "image_url": "https://images.finegardening.com/app/uploads/2018/01/23143717/chrysanthemummorifoliumlinda_cc_2_lg_0-thumb1x1.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    {
+      "id": 68,
+      "name": "Dalie",
+      "latin_name": "Dahlia",
+      "description": "Dalia este o floare opulentă, cu petale aranjate simetric. Simbolizează demnitatea, eleganța și recunoștința veșnică.",
+      "image_url": "https://mariavoichitamiereanu.wordpress.com/wp-content/uploads/2014/10/dalia.jpg",
+      "color_id": 1,
+      "keywords": []
+    },
+    {
+      "id": 91,
+      "name": "Delphinium",
+      "latin_name": "Delphinium elatum",
+      "description": "Floare înalta si statuara, perfecta pentru aranjamente mari. Simbolizeaza bucuria mare si generozitatea.",
+      "image_url": "https://www.famousroses.eu/cdn/shop/files/delphinium-elatum-darwins-blue-indulgence-perene-butasi-trandafiri-gradina-in-ghiveci-sau-radacina-libera-611233.jpg?v=1721375027",
+      "color_id": 7,
+      "keywords": []
+    },
+    {
+      "id": 153,
+      "name": "Dusty Miller",
+      "latin_name": "Senecio cineraria",
+      "description": "Planta argintie pentru contrast elegant. Simbolizeaza rafinamentul si eleganta.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGPrkvWYw9VSddrj202Sg-AkZDbXxQSF_Hh6cWTcEt7ArC7Mjjy0rIbFtj2STYLQk9XH6WN5H6vdeFETPHLIy69g",
+      "color_id": 8,
+      "keywords": [
+        "eleganta"
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Eucalipt",
+      "latin_name": "Eucalyptus globulus",
+      "description": "Eucaliptul simbolizeaza protectia, purificarea si energia pozitiva. Este folosit frecvent în buchete pentru verdeture si aroma.",
+      "image_url": "https://golgemma.com/wp-content/uploads/photo-produit-HYDA0013.jpg",
+      "color_id": 8,
+      "keywords": []
+    },
+    {
+      "id": 148,
+      "name": "Feriga Leatherleaf",
+      "latin_name": "Rumohra adiantiformis",
+      "description": "Feriga profesionala standard în florarie. Simbolizeaza sinceritatea si fascinatia.",
+      "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTuS5ARhD1-YFCrZy-dxj-pO5Hcq20a8uiWNx2IRlPiEWwvvh9P92i3M8A9DaCCiplauOTaLV5lGj0mN7yy3dU9rnlvGCRb8kK0YgyE1Q",
+      "color_id": 8,
+      "keywords": [
+        "sinceritate"
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Feverfew",
+      "latin_name": "Tanacetum parthenium",
+      "description": "Planta medicinala cu flori mici si dese. Simbolizeaza protectia si sanatatea.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTakxf4Nv4PmMUnXjiyWQLk5qXNx_w8A5rJmyD7yhqPI-2jVMF8qpAtaco3mgDRxXeAImvhzMCPLYuwvPNtfBunEw",
+      "color_id": 2,
+      "keywords": []
+    },
+    {
+      "id": 123,
+      "name": "Floarea de Cires",
+      "latin_name": "Prunus serrulata",
+      "description": "Floarea simbolica japoneza reprezentând frumusetea vietii. Simbolizeaza frumusetea efemera.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwopfV2gtM0Yj9F81fT9tyxjH14_RIpIkh7rl5OlvpckJ3jSzsicy89f80HJ15KL04_W3ojPJ1g8oSrn-BOD0fgw",
+      "color_id": 3,
+      "keywords": [
+        "frumusete"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Floarea Flamingo",
+      "latin_name": "Anthurium andraeanum",
+      "description": "Anthurium, cunoscut și ca floarea flamingo, este o floare tropicală cu o formă distinctivă, de inimă lucioasă. Simbolizează ospitalitatea, fericirea și abundența.",
+      "image_url": "https://cdn.adh.reperio.news/image-0/07685f97-3f9e-4352-8280-09cdc43ba638/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D1400%26h%3D750%26r%3Dcontain%26f%3Dwebp",
+      "color_id": 1,
+      "keywords": [
+        "fericire"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Floarea miresei",
+      "latin_name": "Gypsophila paniculata",
+      "description": "Floarea miresei, simbolizează puritatea și dragostea sinceră, dar și respectul reciproc, fiind asociați cu tinerețea și noile începuturi.",
+      "image_url": "https://www.aquarelle.md/fileman/buchetul_miresei_din_gypsophila.jpg",
+      "color_id": 2,
+      "keywords": [
+        "dragoste",
+        "respect",
+        "puritate"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Floarea Soarelui",
+      "latin_name": "Helianthus annuus",
+      "description": "Floarea-soarelui este o plantă anuală din familia Asteraceae, nativă din America. Este una din compozitele cele mai cultivate pentru semințele bogate în ulei, din acestea fiind extras uleiul de floarea-soarelui. Frunzele sunt mari, întregi, pețiolate și cordate.",
+      "image_url": "https://npr.brightspotcdn.com/dims4/default/68545b1/2147483647/strip/true/crop/2048x1536+0+0/resize/1760x1320!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7c%2F15%2F1d76bc934e8cb103a56d43eedc7b%2Fsunflower-wide.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    {
+      "id": 124,
+      "name": "Forsythia",
+      "latin_name": "Forsythia spp.",
+      "description": "Primul arbust care explodeaza în galben primavara. Simbolizeaza anticiparea.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Forsythia_flower.JPG",
+      "color_id": 4,
+      "keywords": []
+    },
+    {
+      "id": 20,
+      "name": "Frezie",
+      "latin_name": "Freesia refracta",
+      "description": "Freziile simbolizează inocența și prietenia.",
+      "image_url": "https://flowers-garden.ro/wp-content/uploads/2020/01/buchet-cadou-cu-frezii-galbene.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    {
+      "id": 99,
+      "name": "Gardenie",
+      "latin_name": "Gardenia jasminoides",
+      "description": "Floare cu parfum intoxicant si petale catifelate. Simbolizeaza puritatea secreta.",
+      "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTE8xOpRNmxHbcg7gfWGDfRRqFOS3c-OfbI72f6uiLs2-pDKr2QGdu3_i3XtH8lprEZuWE7qXsbyrYYCTh9-XLevA",
+      "color_id": 2,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Garofiță Albă",
+      "latin_name": "Dianthus caryophyllus",
+      "description": "Garoafele albe reprezintă inocența și devotamentul.",
+      "image_url": "https://scms.machteamsoft.ro/uploads/photos/original/109982-1.jpg",
+      "color_id": 2,
+      "keywords": [
+        "devotament"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Garofiță Roșie",
+      "latin_name": "Dianthus caryophyllus",
+      "description": "Garoafele roșii semnifică dragostea și admirația.",
+      "image_url": "https://www.magnolia.ro/blog/wp-content/uploads/2016/07/istoria-si-semnificatiile-au-garoafei.jpg",
+      "color_id": 1,
+      "keywords": [
+        "dragoste"
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Garofita Roz",
+      "latin_name": "Dianthus plumarius",
+      "description": "Garoafele roz simbolizeaza recunostinta, multumirea si amintirile frumoase.",
+      "image_url": "https://okflora.r.worldssl.net/files/getfilecdn/25814/garoafe-roz-49-2-w445-h445.webp",
+      "color_id": 3,
+      "keywords": [
+        "recunostinta"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Gerbera Galbenă",
+      "latin_name": "Gerbera jamesonii",
+      "description": "Gerbera galbenă simbolizează veselia.",
+      "image_url": "https://sfatulparintilor.ro/wp-content/uploads/2020/11/Ce-semnifica-culoarea-galben-sfatulparintilor.ro-pixabay_com-baberton-3318688_1920-1400x850.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    {
+      "id": 29,
+      "name": "Gerbera Roșie",
+      "latin_name": "Gerbera jamesonii",
+      "description": "Gerbera roșie simbolizează iubirea pasională.",
+      "image_url": "http://www.gradinamea.ro/_files/Image/articole/original/20040828_15_parisperelachaisegerbera.JPG",
+      "color_id": 1,
+      "keywords": [
+        "iubire"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Gerbera Roz",
+      "latin_name": "Gerbera jamesonii",
+      "description": "Gerbera roz simbolizează aprecierea și admirația.",
+      "image_url": "https://www.magnolia.ro/blog/wp-content/uploads/2017/04/gerbera.jpg",
+      "color_id": 3,
+      "keywords": []
+    },
+    {
+      "id": 13,
+      "name": "Ghiocel",
+      "latin_name": "Galanthus nivalis",
+      "description": "Ghiocelul este un simbol al speranței și al renașterii primăverii.",
+      "image_url": "https://cdn.pixabay.com/photo/2016/01/28/16/18/spring-1166564_1280.jpg",
+      "color_id": 2,
+      "keywords": []
+    },
+    {
+      "id": 102,
+      "name": "Glicina",
+      "latin_name": "Wisteria sinensis",
+      "description": "Floare cataracta cu parfum intens de primavara. Simbolizeaza devotiunea si romantismul intens.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Chinesischer_Blauregen_Detail_Bl%C3%BCtentraube.JPG/500px-Chinesischer_Blauregen_Detail_Bl%C3%BCtentraube.JPG",
+      "color_id": 6,
+      "keywords": [
+        "romantism"
+      ]
+    },
+    {
+      "id": 146,
+      "name": "Grâu",
+      "latin_name": "Triticum aestivum",
+      "description": "Cereala decorativa simbolizând abundenta. Simbolizeaza recolta si prosperitatea.",
+      "image_url": "https://live.staticflickr.com/2711/4190569720_4b2c376c6a_b.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    {
+      "id": 21,
+      "name": "Gura Leului ",
+      "latin_name": "Antirrhinum majus",
+      "description": "Gura leului era o floare dedicată femeilor și se mai spunea că farmecul ei tainic le apără pe tinerele frumoase de invidia și dușmănia celorlalte femei.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Antirrhinum_majus-Flower_02.jpg/500px-Antirrhinum_majus-Flower_02.jpg",
+      "color_id": 3,
+      "keywords": []
+    },
+    {
+      "id": 144,
+      "name": "Gypsophila",
+      "latin_name": "Gypsophila paniculata",
+      "description": "Floarea de completare clasica universala. Simbolizeaza inocenta pura si iubirea eterna.",
+      "image_url": "https://docaperene.ro/cdn/shop/files/GypsophilapaniculataSnowflake1_940x.jpg?v=1739970107",
+      "color_id": 2,
+      "keywords": [
+        "iubire"
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Hellebore",
+      "latin_name": "Helleborus niger",
+      "description": "Floarea de iarna care înfloreste în zapada. Cunoscuta ca trandafirul de Craciun.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Helleborus_niger_Kaiser.jpg",
+      "color_id": 2,
+      "keywords": []
+    },
+    {
+      "id": 60,
+      "name": "Hortensie Albastră",
+      "latin_name": "Hydrangea macrophylla",
+      "description": "Hortensia albastră este o floare decorativă originară din Asia, apreciată pentru inflorescențele sale ample și colorate. Simbolizează recunoștința, înțelegerea și sinceritatea.",
+      "image_url": "https://www.magnolia.ro/blog/wp-content/uploads/2018/06/ce-semnifica-hortnesiile.jpg",
+      "color_id": 7,
+      "keywords": [
+        "sinceritate"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Hortensie verde",
+      "latin_name": "Hydrangea Macrophylla",
+      "description": "Pe de o parte, sunt simbolul purității, al delicateții, pe de altă parte, pot reprezenta lăudăroșenia.",
+      "image_url": "https://grow.decorexpro.com/wp-content/uploads/2018/10/21-1.jpg",
+      "color_id": 8,
+      "keywords": []
+    },
+    {
+      "id": 74,
+      "name": "Iasomie",
+      "latin_name": "Jasminum",
+      "description": "Iasomia este un arbust cu flori mici, albe, extrem de parfumate. Simbolizeaza puritatea, modestia si gratia. Este asociata cu iubirea divina.",
+      "image_url": "https://canal33.ro/wp-content/uploads/2024/05/jasmine-3217541_1280-1.jpg",
+      "color_id": 2,
+      "keywords": [
+        "iubire",
+        "puritate"
+      ]
+    },
+    {
+      "id": 141,
+      "name": "Iasomie Asiatica",
+      "latin_name": "Jasminum sambac",
+      "description": "Iasomia folosita pentru ceai si parfumuri. Simbolizeaza gratia divina si puritatea.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Arabian_jasmin%2C_Tunisia_2010.jpg",
+      "color_id": 2,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    {
+      "id": 152,
+      "name": "Iedera",
+      "latin_name": "Hedera helix",
+      "description": "Planta cazaratoare clasica europeana. Simbolizeaza fidelitatea si prietenia.",
+      "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTUR_xoKp1q5tOT1ej3315Ifai05u52jofPiZzMxLs-sjZbeyOUeWWyUSX4yOggxZMcBoddOTIuuL614_-RgqYDvw",
+      "color_id": 8,
+      "keywords": []
+    },
+    {
+      "id": 61,
+      "name": "Iris",
+      "latin_name": "Iris germanica",
+      "description": "Irisul este o floare elegantă și impunătoare, cu o formă distinctivă. Simbolizează înțelepciunea, credința și curajul.",
+      "image_url": "https://bloomeria.ro/pub/media/amasty/webp/wysiwyg/blog/ingrijirea-florii-de-iris-crestere-cultivaer-ghiveci_jpg.webp",
+      "color_id": 6,
+      "keywords": [
+        "curaj"
+      ]
+    },
+    {
+      "id": 127,
+      "name": "Iris de Primavara",
+      "latin_name": "Iris reticulata",
+      "description": "Irisul mic si precoce de început de primavara. Simbolizeaza mesajele si speranta.",
+      "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQwfa1KvkLu_OmRX2zZxc1c7XRZIjCRQHKEbc4P5HU8KIx75b9JQsMVV08exRs-XuIrCFt7NY_QBGP19wHPxuKyXQ",
+      "color_id": 7,
+      "keywords": [
+        "speranta"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Kangaroo Paw",
+      "latin_name": "Anigozanthos flavidus",
+      "description": "Floarea australiana cu forme de laba de cangur. Simbolizeaza unicitatea si adaptabilitatea.",
+      "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMiVDDfgVVIOymQkm9fpGEUDuUvQi-HPBp7JjL_XeA51LJXNxM_yv8nBiQiENj9nickgrG3XV06T47bFfLqGI4sg",
+      "color_id": 1,
+      "keywords": []
+    },
+    {
+      "id": 92,
+      "name": "Lacramioare",
+      "latin_name": "Convallaria majalis",
+      "description": "Floare delicata si parfumata, simbolul umilitatii si puritatii. Traditionala pentru nunti în Europa.",
+      "image_url": "https://c.cdnmp.net/358998178/p/m/1/lacramioare-convallaria-majalis-doreen~2411.jpg",
+      "color_id": 2,
+      "keywords": []
+    },
+    {
+      "id": 8,
+      "name": "Lalea Galbenă",
+      "latin_name": "Tulipa",
+      "description": "Lalelele galbene simbolizează fericirea și veselia.",
+      "image_url": "https://prinde100.wordpress.com/wp-content/uploads/2010/04/img00290-20100417-1508.jpg",
+      "color_id": 4,
+      "keywords": [
+        "fericire"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Lalea Roșie",
+      "latin_name": "Tulipa",
+      "description": "Lalelele roșii sunt asociate cu dragostea. Poate fi vorba despre dragoste la început de drum, fiind, de multe ori, și preferatele tinerilor îndrăgostiți, dar și despre o dragoste matură, lalelele roșii simbolizând profunzimea sentimentelor și durabilitatea lor.",
+      "image_url": "https://gomagcdn.ro/domains2/planteieftine.ro/files/product/original/lalea-rosie-escape-048184.jpg",
+      "color_id": 1,
+      "keywords": [
+        "dragoste"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Lalea Roz",
+      "latin_name": "Tulipa darwin",
+      "description": "Lalelele roz simbolizeaza afectiunea, grija si dragostea familiala. Perfecte pentru relatii calde si apropiate.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvpwdszptnx9KXofae4tfNSQGYVVMFXZCpTQ&s",
+      "color_id": 3,
+      "keywords": [
+        "dragoste"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Lalele Colorate",
+      "latin_name": "Tulipa triumph",
+      "description": "Lalelele colorate simbolizeaza diversitatea, bucuria si vitalitatea. Aduc energie si voie buna.",
+      "image_url": "https://ruigrokflowerbulbs.com/wp-content/uploads/2022/03/Triumph-Mix-2021_05_07_030971.jpg",
+      "color_id": 4,
+      "keywords": [
+        "energie",
+        "vitalitate"
+      ]
+    },
+    {
+      "id": 154,
+      "name": "Lamb's Ear",
+      "latin_name": "Stachys byzantina",
+      "description": "Planta cu textura matasoasa unica. Simbolizeaza blândetea si confortul.",
+      "image_url": "https://www.gardenia.net/wp-content/uploads/2015/02/shutterstock_549414640.jpg",
+      "color_id": 8,
+      "keywords": []
+    },
+    {
+      "id": 19,
+      "name": "Lavandă",
+      "latin_name": "Lavandula",
+      "description": "Lavanda simbolizează calmul, puritatea și devotamentul.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Single_lavender_flower02.jpg",
+      "color_id": 6,
+      "keywords": [
+        "puritate",
+        "devotament"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Leucadendron",
+      "latin_name": "Leucadendron spp.",
+      "description": "Floare africana cu frunzaj colorat durabil. Simbolizeaza diversitatea si rezistenta.",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/3a2pScQT8wkiVnKfT85j3V.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    {
+      "id": 105,
+      "name": "Leucospermum",
+      "latin_name": "Leucospermum cordifolium",
+      "description": "Floarea africana cu aspect de pernuta pentru ace. Simbolizeaza protectia si grija.",
+      "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ6cfqMCj7Cw8dsY9tXT17i1PPQRNN8O9_BLjVrFNPRMGT-KOQY5UyIYwp1dnRHVr9o188kImRWpA6-fjWtpMv5kw",
+      "color_id": 5,
+      "keywords": []
+    },
+    {
+      "id": 71,
+      "name": "Liliac",
+      "latin_name": "Syringa vulgaris",
+      "description": "Liliacul este un arbust înflorit, apreciat pentru parfumul său intens și pentru frumusețea inflorescențelor. Simbolizează primele emoții ale dragostei.",
+      "image_url": "https://mediacdn.libertatea.ro/unsafe/1260x708/smart/filters:format(webp):contrast(8):quality(75)/https://static4.libertatea.ro/wp-content/uploads/2021/05/liliac-plantare-ingrijire.jpg",
+      "color_id": 6,
+      "keywords": [
+        "dragoste"
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Lisianthus",
+      "latin_name": "Eustoma grandiflorum",
+      "description": "Floare eleganta cu aspect de trandafir dar mai durabila. Simbolizeaza aprecierea si eleganta.",
+      "image_url": "https://mullerseeds.ro/app/uploads/2024/12/FRS708-01-300x300.jpg",
+      "color_id": 6,
+      "keywords": [
+        "eleganta"
+      ]
+    },
+    {
+      "id": 139,
+      "name": "Lotus",
+      "latin_name": "Nelumbo nucifera",
+      "description": "Floarea sacra budista si hinduista. Simbolizeaza puritatea spirituala si iluminarea.",
+      "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR_0S52De6QfNLY7-MV35ti6sqWZd_qtFCEnyTSn4goTo6rHImBXLdDTXG-AiQ8dzM4Gjs39DNNVkoLsrWaad61ZQ",
+      "color_id": 3,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Mac",
+      "latin_name": "Papaver rhoeas",
+      "description": "Macul simbolizeaza amintirea, consolarea si pacea. Folosit adesea pentru comemorari.",
+      "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS2BNKRQ27ewVI5jzAs3eBtIfFkI62KzSAq2gTh2-nKq7oluhGCevBJfFOxwCgu73x696AcuEXWWAJidpEsJnwNbw",
+      "color_id": 1,
+      "keywords": [
+        "pace"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Magnolia",
+      "latin_name": "Magnolia grandiflora",
+      "description": "Magnolia este un arbore cu flori spectaculoase, mari si parfumate. Simbolizeaza demnitatea, perseverenta si iubirea pentru natura.",
+      "image_url": "https://buchetefloria.wordpress.com/wp-content/uploads/2015/02/magnolia_semnificatie.jpg",
+      "color_id": 2,
+      "keywords": [
+        "iubire"
+      ]
+    },
+    {
+      "id": 131,
+      "name": "Mar în Floare",
+      "latin_name": "Malus domestica",
+      "description": "Simbolul fertilitatii în tara noastra. Simbolizeaza abundenta si fertilitatea.",
+      "image_url": "https://plantsam.com/wp-content/uploads/2021/12/Malus-domestica.jpg",
+      "color_id": 2,
+      "keywords": []
+    },
+    {
+      "id": 86,
+      "name": "Margarete",
+      "latin_name": "Bellis perennis",
+      "description": "Margaretele simbolizeaza inocenta, simplitatea si noul început. Flori clasice si timeless.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi7lKe4m72nFhdbjX1fzOWLglPhYrwynnU3kaKvjCuGBO9UD7MwKm1mS6MPoFFEI3FFieoEF6ihC9JgbYg9eSGiQ",
+      "color_id": 2,
+      "keywords": []
+    },
+    {
+      "id": 158,
+      "name": "Menta",
+      "latin_name": "Mentha spp.",
+      "description": "Planta aromatica cu flori mici si discrete. Simbolizeaza prospetimea si claritatea mentala.",
+      "image_url": "https://monticelloshop.org/cdn/shop/files/common-mint-seeds-mentha-spp-209494_1800x1800.png?v=1742996226",
+      "color_id": 2,
+      "keywords": []
+    },
+    {
+      "id": 143,
+      "name": "Morning Glory",
+      "latin_name": "Ipomoea purpurea",
+      "description": "Floarea care se deschide diminea?a. Simbolizeaza iubirea în zadar si afectiunea.",
+      "image_url": "https://www.gardenia.net/wp-content/uploads/2023/05/Ipomoea-Purpurea-Morning-Glory.webp",
+      "color_id": 6,
+      "keywords": [
+        "iubire"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Mușețel",
+      "latin_name": "Matricaria chamomilla",
+      "description": "Mușețelul este adesea asociat cu calmul, pacea și vindecarea.",
+      "image_url": "https://www.springfarma.com/media/wysiwyg/cms/articole/3mus.jpg",
+      "color_id": 2,
+      "keywords": [
+        "pace"
+      ]
+    },
+    {
+      "id": 120,
+      "name": "Muscarica",
+      "latin_name": "Myosotis sylvatica",
+      "description": "Floare mica a adevaratei iubiri. Simbolizeaza amintirile adevarate si fidelitatea.",
+      "image_url": "https://www.gardenia.net/wp-content/uploads/2023/05/myosotis-sylvatica-forget-me-not-780x520.webp",
+      "color_id": 7,
+      "keywords": []
+    },
+    {
+      "id": 157,
+      "name": "Muscata",
+      "latin_name": "Pelargonium spp.",
+      "description": "Floare clasica de balcon cu miros placut. Simbolizeaza prietenia adevarata si confortul.",
+      "image_url": "https://www.gardenia.net/wp-content/uploads/2023/04/1RYX8vvagYKzgzRPdUndx4PFdPK0FKt7RIqFQOc8-780x520.webp",
+      "color_id": 3,
+      "keywords": []
+    },
+    {
+      "id": 15,
+      "name": "Narcisă",
+      "latin_name": "Narcissus",
+      "description": "Narcisele simbolizează noi începuturi și bucuria primăverii.",
+      "image_url": "https://horticultura.ro/wp-content/uploads/2024/03/Narcise-Horticultura-Timisoara-1-800x600.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    {
+      "id": 62,
+      "name": "Nemțisor",
+      "latin_name": "Delphinium elatum",
+      "description": "Delphiniumul este o floare înaltă și spectaculoasă, cu inflorescențe bogate în nuanțe de albastru. Simbolizează deschiderea către noi experiențe și protecție.",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311273569/medium.jpg",
+      "color_id": 7,
+      "keywords": []
+    },
+    {
+      "id": 70,
+      "name": "Nufăr",
+      "latin_name": "Nymphaea",
+      "description": "Nufărul roz este o floare acvatică de o frumusețe deosebită. În cultura orientală, simbolizează puritatea inimii și a minții, iluminarea spirituală.",
+      "image_url": "https://i0.wp.com/nuferidevanzare.ro/wp-content/uploads/2013/04/nuferi-roz-vanzare-1.jpg?zoom=1.25&resize=375%2C250",
+      "color_id": 3,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Nu-mă-uita",
+      "latin_name": "Myosotis sylvatica",
+      "description": "Nemțișorul sau nu-mă-uita este o floare delicată, cu flori mici de culoare albastră. Simbolizează amintirile dragi și iubirea adevărată.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Myosotislatifolia.jpg",
+      "color_id": 7,
+      "keywords": [
+        "iubire"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Orhidee fluture",
+      "latin_name": "Phalaenopsis",
+      "description": "Orhidee fluture este una dintre cele mai populare și elegante specii de orhidee. Are flori delicate care simbolizează rafinamentul, frumusețea și perfecțiunea.",
+      "image_url": "http://www.biaplant.ro/repository/files/f2ab2120a80c93c7d2e37325993608b8.jpg",
+      "color_id": 5,
+      "keywords": []
+    },
+    {
+      "id": 11,
+      "name": "Orhidee Roz",
+      "latin_name": "Orchidaceae",
+      "description": "Orhideele roz simbolizează grația, eleganța și feminitatea.",
+      "image_url": "https://mathaus.ro/medias/sys_master/root/he8/hcd/h00/9494804561950/Orhidee-Phalaenopsis.jpg",
+      "color_id": 3,
+      "keywords": []
+    },
+    {
+      "id": 147,
+      "name": "Pampas Grass",
+      "latin_name": "Cortaderia selloana",
+      "description": "Iarba decorativa trendy pentru design modern. Simbolizeaza eleganta naturala.",
+      "image_url": "https://florastore.com/cdn/shop/files/2551036_Atmosphere_01_SQ_a74d718e-9f52-4f6f-ad74-fb3ba9118cb6.jpg?v=1744897738&width=1080",
+      "color_id": 2,
+      "keywords": [
+        "eleganta"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Petunie",
+      "latin_name": "Petunia",
+      "description": "Petunia este, pe de o parte, un simbol al mâniei şi resentimentului, îndeosebi când îţi este dată de cineva cu care ai avut de curând o neînţelegere, o ceartă înfierbântată. Pe de altă parte, semnifică \"nu-ţi pierde speranţa.",
+      "image_url": "https://florariatrias.b-cdn.net/wp-content/uploads/2023/06/PETUNIA-%E2%80%93-FLOAREA-PARFUMATA-DE-EXTERIOR-1-1536x864.jpg",
+      "color_id": 6,
+      "keywords": []
+    },
+    {
+      "id": 76,
+      "name": "Piciorul cocoșului",
+      "latin_name": "Ranunculus asiaticus",
+      "description": "Ranunculusul, cunoscut si ca piciorul cocosului, are flori bogat colorate cu numeroase petale delicate. Simbolizeaza farmecul si atractia.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Persian_buttercup_%28Ranunculus_asiaticus%29.jpg/500px-Persian_buttercup_%28Ranunculus_asiaticus%29.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    {
+      "id": 150,
+      "name": "Pittosporum",
+      "latin_name": "Pittosporum tobira",
+      "description": "Frunzajul decorativ cu parfum discret. Simbolizeaza eleganta discreta.",
+      "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRu28aqH3G4y_nAOgO7FVfA20vVLh9PjD9prWuawkTO6c3SnfBiOdo2kwtPEubUFTsx9tjfU8aVDbwuKSmaDZhmTA",
+      "color_id": 8,
+      "keywords": [
+        "eleganta"
+      ]
+    },
+    {
+      "id": 101,
+      "name": "Plumeria",
+      "latin_name": "Plumeria spp.",
+      "description": "Floarea tropicala hawaiana cu parfum intens. Simbolul ospitalitatii si vietii noi.",
+      "image_url": "https://animals.sandiegozoo.org/sites/default/files/2017-12/plumeria-yellow.jpg",
+      "color_id": 2,
+      "keywords": []
+    },
+    {
+      "id": 100,
+      "name": "Protea",
+      "latin_name": "Protea cynaroides",
+      "description": "Floarea nationala sud-africana cu forme arhitecturale unice. Simbolizeaza curajul si transformarea.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkW3HPHRrmMI09raTkiPHdJa-VCFiz5yH01LDsY9myDbv_qmZjtb_RZ244XSCRgoy4nTQ-oXAivMoSHv8sSpmFTQ",
+      "color_id": 3,
+      "keywords": [
+        "curaj"
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Queen Anne's Lace",
+      "latin_name": "Daucus carota",
+      "description": "Floarea salbatica clasica cu dantela naturala. Simbolizeaza sanctuarul si protectia.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Daucus_carota_May_2008-1_edit.jpg",
+      "color_id": 2,
+      "keywords": []
+    },
+    {
+      "id": 155,
+      "name": "Ramuri de Maslin",
+      "latin_name": "Olea europaea",
+      "description": "Ramurile mediteraneene simbolizând pacea. Simbolizeaza pacea si întelepciunea.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrm1u9KP6Hm_0-4jUrQja5a4tKuhRFvDZPEQ&s",
+      "color_id": 8,
+      "keywords": [
+        "pace"
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Ranunculus",
+      "latin_name": "Ranunculus asiaticus",
+      "description": "Floare cu multiple straturi de petale, extrem de feminina. Simbolizeaza farmecul radiant si atractia magnetica.",
+      "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSeqBPKWfIqcG_eC89z5p8ulmJ0flDb2wjEz6JXVrlPYiIKBfuIOfxXwpupe0uvrgRrBu-rBdWWnw8bUntr4Ykx0g",
+      "color_id": 4,
+      "keywords": []
+    },
+    {
+      "id": 156,
+      "name": "Rozmarin Decorativ",
+      "latin_name": "Rosmarinus officinalis",
+      "description": "Planta aromatica cu simbolism de memorie. Simbolizeaza amintirea si fidelitatea.",
+      "image_url": "https://docaperene.ro/cdn/shop/files/Rosmarinusofficinalis.jpg?v=1740486280",
+      "color_id": 8,
+      "keywords": []
+    },
+    {
+      "id": 149,
+      "name": "Ruscus",
+      "latin_name": "Ruscus aculeatus",
+      "description": "Verdeturile mediteraneene cele mai durabile. Simbolizeaza rezistenta si durabilitatea.",
+      "image_url": "https://innocentiemangonipiante.it/wp-content/themes/yootheme/cache/14/1642694478-1428aff6.jpeg",
+      "color_id": 8,
+      "keywords": []
+    },
+    {
+      "id": 137,
+      "name": "Sakura",
+      "latin_name": "Prunus serrulata",
+      "description": "Floarea simbolica japoneza a primaverii. Simbolizeaza frumusetea efemera a vietii.",
+      "image_url": "https://bs.plantnet.org/image/o/ed305e2237e1a8a7800487692859d853ca99a52f",
+      "color_id": 3,
+      "keywords": [
+        "frumusete"
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Scabiosa",
+      "latin_name": "Scabiosa atropurpurea",
+      "description": "Floare cu aspect texturat, populara în stilul rustic. Simbolizeaza dragostea nenorocita si tristetea frumoasa.",
+      "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcREtvOdzMXaFc97ayL0Zfg_F_O2esj873aB7Em-tu3Dqc6uPW0cB30GZmaV2HLlMEnCsqMQoggRlZc_GMFMsUHAIg",
+      "color_id": 6,
+      "keywords": [
+        "dragoste",
+        "tristete"
+      ]
+    },
+    {
+      "id": 114,
+      "name": "Solidago",
+      "latin_name": "Solidago spp.",
+      "description": "Floare salbatica de toamna cu panicula densa. Simbolizeaza precautia si encouragementul.",
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5d9cf6657cc1730bfc60e055/1601138887377-4MGSSG6VHEJ1FH84HDDS/Goldenrod_1.JPG",
+      "color_id": 4,
+      "keywords": []
+    },
+    {
+      "id": 98,
+      "name": "Stephanotis",
+      "latin_name": "Stephanotis floribunda",
+      "description": "Floarea de nunta tropicala, wedding vine clasica. Simbolizeaza fericirea în casatorie.",
+      "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSDbwfXtFgzr1tggPUwrOGVTunrfWtP_z6rrP9tLCv88GcPIfH0qNxFDNCO0BhCFmzrdF54OTF2yBDx53x0swSHeA",
+      "color_id": 2,
+      "keywords": [
+        "fericire",
+        "nunta",
+        "casatorie"
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Stocks",
+      "latin_name": "Matthiola incana",
+      "description": "Floare cu parfum de seara intens si persistent. Simbolizeaza frumusetea durabila.",
+      "image_url": "https://www.evanthia.nl/_next/image?url=https%3A%2F%2Fcms.evanthia.nl%2Fresources%2Fuploads%2F2021%2F02%2FCentum_Lavender_Matthiola_Incana_Violier_Evanthia_LR_01.jpg&w=1200&q=75",
+      "color_id": 6,
+      "keywords": [
+        "frumusete"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Streliția",
+      "latin_name": "Strelitzia reginae",
+      "description": "Cunoscută și sub numele de \"Pasărea Paradisului\", streliția este o floare exotică spectaculoasă, originară din Africa de Sud. Simbolizează libertatea, frumusețea și excelența.",
+      "image_url": "https://www.magnolia.ro/blog/wp-content/uploads/2016/03/strelizia-reginae-magnolia.jpg",
+      "color_id": 5,
+      "keywords": []
+    },
+    {
+      "id": 134,
+      "name": "Sunatoare",
+      "latin_name": "Trifolium pratense",
+      "description": "Floarea de trifoi din pajistile românesti. Simbolizeaza norocul si abundenta.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Trifolium_pratense_-_Keila2.jpg/500px-Trifolium_pratense_-_Keila2.jpg",
+      "color_id": 3,
+      "keywords": []
+    },
+    {
+      "id": 96,
+      "name": "Sweet Pea",
+      "latin_name": "Lathyrus odoratus",
+      "description": "Floare cataratoare cu parfum dulce de vanilie. Simbolizeaza placerile delicate.",
+      "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/7d0612e1e50abbf91de5d774a34ee74a.jpg",
+      "color_id": 3,
+      "keywords": []
+    },
+    {
+      "id": 132,
+      "name": "Tei în Floare",
+      "latin_name": "Tilia cordata",
+      "description": "Floarea medicinala traditionala româneasca. Simbolizeaza vindecarea traditionala.",
+      "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQe-dWUtDDkwpMJDv810roh43c9NtajVrRsmYY3QerCLdp3EKvowEi83AbaRUrWyU62wmbJxoBD5o7Ovw_GYnw2Vw",
+      "color_id": 4,
+      "keywords": []
+    },
+    {
+      "id": 115,
+      "name": "Thistle",
+      "latin_name": "Cirsium vulgare",
+      "description": "Floarea scotiana cu texturi spinos-decorative. Simbolizeaza nobleta si protectia.",
+      "image_url": "https://wcbotanicalclub.org/wp-content/uploads/2019/08/bull-thistle-cirsium-vulgare-02-kb.jpg?w=506",
+      "color_id": 6,
+      "keywords": []
+    },
+    {
+      "id": 159,
+      "name": "Timus",
+      "latin_name": "Thymus vulgaris",
+      "description": "Planta aromatica cu flori mici si parfum intens. Simbolizeaza curajul si puterea interioara.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTch1TN8QZ58n3kOzIcxdsJxUAX-QYfgaOem2pGOPdbLcByw_nlI9o4v5fuRbD8g5kWdO9QWX239zuJIdX1o7oD0g",
+      "color_id": 6,
+      "keywords": [
+        "curaj"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Trandafir Alb",
+      "latin_name": "Rosa",
+      "description": "Trandafirul alb simbolizează puritatea, inocența și noile începuturi.",
+      "image_url": "https://images.pexels.com/photos/2166160/pexels-photo-2166160.jpeg",
+      "color_id": 2,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    {
+      "id": 130,
+      "name": "Trandafir de Damasc",
+      "latin_name": "Rosa damascena",
+      "description": "Trandafirul pentru esensa româneasca de trandafir. Simbolizeaza esenta si autenticitatea.",
+      "image_url": "https://www.famousroses.eu/cdn/shop/files/rosa-damascena-trigintipetala-trandafir-pentru-dulceata-si-ulei-esential-butasi-trandafiri-gradina-in-ghiveci-sau-radacina-libera-537808.jpg?v=1721375320&width=720",
+      "color_id": 3,
+      "keywords": []
+    },
+    {
+      "id": 82,
+      "name": "Trandafir Galben",
+      "latin_name": "Rosa foetida",
+      "description": "Trandafirul galben simbolizeaza prietenia, bucuria ?i optimismul. Perfect pentru prieteni ?i momente de celebrare.",
+      "image_url": "https://bulbidevis.ro/183-large_default/trandafir-de-gradina-catarator-galben.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    {
+      "id": 1,
+      "name": "Trandafir Roșu",
+      "latin_name": "Rosa",
+      "description": "Trandafirul roșu este adesea asociat cu pasiunea arzătoare, iubirea profundă și romantismul. Culoarea sa vibrantă și forma sa delicată îl fac să fie considerat un simbol al frumuseții și eleganței.",
+      "image_url": "https://curiozitati.md/img/trandafiri/trandafir_rosu.jpg",
+      "color_id": 1,
+      "keywords": [
+        "iubire",
+        "pasiune",
+        "romantism"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Trandafir Roz",
+      "latin_name": "Rosa",
+      "description": "Trandafirul roz transmite admirație, recunoștință și bucurie.",
+      "image_url": "https://www.magnolia.ro/blog/images/gallery/istoria-si-semnificatia-trandafirului-roz/istoria_si_semnificatia_trandafirului_roz.jpg",
+      "color_id": 3,
+      "keywords": [
+        "bucurie"
+      ]
+    },
+    {
+      "id": 133,
+      "name": "Trandafir Salbatic",
+      "latin_name": "Rosa canina",
+      "description": "Macesul traditional cu flori si fructe. Simbolizeaza sanatatea si longevitatea.",
+      "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRlnhvdRzt5ykfTdnoCO5R6FaBjBCxtbjnxkQ8z-d3kLOUyS5CFZJrLjqxmrnPIvzViTP4SBubs4EcAGs-dWXLQNg",
+      "color_id": 3,
+      "keywords": []
+    },
+    {
+      "id": 65,
+      "name": "Trandafirul Chinezesc",
+      "latin_name": "Hibiscus rosa-sinensis",
+      "description": "Hibiscusul este o floare tropicală cu petale mari, intense coloristic. Simbolizează frumusețea efemeră, pasiunea și dragostea delicată.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Hibiscus_Brilliant.jpg/1280px-Hibiscus_Brilliant.jpg",
+      "color_id": 1,
+      "keywords": [
+        "dragoste",
+        "pasiune"
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Tuberose",
+      "latin_name": "Polianthes tuberosa",
+      "description": "Floarea cu cel mai intens parfum de noapte. Simbolizeaza senzualitatea si misterul.",
+      "image_url": "https://order.eurobulb.nl/549-large_default/polianthes-tuberosa-the-pearl-10524.jpg",
+      "color_id": 2,
+      "keywords": [
+        "mister"
+      ]
+    },
+    {
+      "id": 122,
+      "name": "Viorele",
+      "latin_name": "Viola odorata",
+      "description": "Floare mica si parfumata, simbolul modestiei. Simbolizeaza modestia si fidelitatea.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Viola_odorata_fg01.JPG",
+      "color_id": 6,
+      "keywords": []
+    },
+    {
+      "id": 129,
+      "name": "Visin în Floare",
+      "latin_name": "Prunus cerasus",
+      "description": "Floarea traditionala a satului românesc. Simbolizeaza traditiile si patrimoniul cultural.",
+      "image_url": "https://www.treesandshrubsonline.org/site/assets/files/10954/prunus-cerasus-rhexii-1.jpg",
+      "color_id": 2,
+      "keywords": []
+    },
+    {
+      "id": 119,
+      "name": "Yarrow",
+      "latin_name": "Achillea millefolium",
+      "description": "Planta medicinala cu flori în corimba. Simbolizeaza vindecarea si curajul.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_2gc2axiFn9gtJokCz7TSx-DtZGyIvfr5uuE-GYL9cuI1LlPhBUbfSTVN02TJHm2ZAeZFcrHeDE10cej5Mfwvzw",
+      "color_id": 4,
+      "keywords": [
+        "curaj"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Zambilă Albă",
+      "latin_name": "Hyacinthus orientalis",
+      "description": "Zambilele albe simbolizează puritatea și inocența.",
+      "image_url": "https://www.prietenulgradinii.ro/cdn/products/bulbi-zambile-albe-snow-crystal-bz013-760.webp",
+      "color_id": 2,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Zambilă Albastră",
+      "latin_name": "Hyacinthus orientalis",
+      "description": "Zambilele albastre pot simboliza constanța, sinceritatea și calmul.",
+      "image_url": "https://verdena.ro/cdn/shop/products/zambila-struguras-albastru-muscari-armeniacum-ghiveci-cu-12-bulbi-844801.jpg?v=1708075088&width=1500",
+      "color_id": 7,
+      "keywords": [
+        "sinceritate"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Zambilă galbenă",
+      "latin_name": "Hyacinthus orientalis",
+      "description": "Aceste plante sunt cunoscute si ca un simbol al geloziei.",
+      "image_url": "https://secretgarden.ro/cdn/shop/products/Hyacinthus-Gipsy-princess.jpg?v=1672844824",
+      "color_id": 4,
+      "keywords": []
+    },
+    {
+      "id": 26,
+      "name": "Zambila Roz",
+      "latin_name": "Hyacinthus orientalis",
+      "description": "Zambilele roz simbolizează jocul și bucuria.",
+      "image_url": "https://buchetefloria.wordpress.com/wp-content/uploads/2015/02/zambila-roz.jpg",
+      "color_id": 3,
+      "keywords": []
+    },
+    {
+      "id": 111,
+      "name": "Zinnia",
+      "latin_name": "Zinnia elegans",
+      "description": "Floare vesela si rezistenta la caldura. Simbolizeaza gândurile despre prietenii absenti.",
+      "image_url": "https://www.plantazia.ro/cdn/shop/files/Seminte-Flori-Carciumarese-_Zinnia-elegans_-galbene1_1280x.gif?v=1684414991",
+      "color_id": 4,
+      "keywords": []
+    }
+  ],
+  "flower_map": {
+    " Salcie căprească": {
+      "id": 125,
+      "name": " Salcie căprească",
+      "latin_name": "Salix caprea",
+      "description": "Ramura traditionala de Florii cu boboci pufosi. Simbolizeaza renanterea si speranta.",
+      "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSJhjOHNtVU-QVtiaxmkjTArPTJkNdhShodUR24ML-FOBRB50uP",
+      "color_id": 8,
+      "keywords": [
+        "speranta"
+      ]
+    },
+    "Albastreaua": {
+      "id": 113,
+      "name": "Albastreaua",
+      "latin_name": "Centaurea cyanus",
+      "description": "Floarea nationala a Estoniei, simbolul câmpiei. Simbolizeaza delicatetea si eleganta.",
+      "image_url": "https://joradahl.de/wp-content/uploads/2021/08/101020-02-Centaurea-cyanus-Classic-Fantastic-1-1320x1320.jpg",
+      "color_id": 7,
+      "keywords": [
+        "eleganta"
+      ]
+    },
+    "Alstroemeria": {
+      "id": 89,
+      "name": "Alstroemeria",
+      "latin_name": "Alstroemeria spp.",
+      "description": "Floarea prieteniei devotate din America de Sud, extrem de durabila. Simbolizeaza loialitatea în prietenie.",
+      "image_url": "https://www.thetortoisetable.org.uk/common/files/catalogue/613/large_Alstroemeria_LR_DSCF0862.jpeg",
+      "color_id": 3,
+      "keywords": [
+        "prietenie",
+        "loialitate"
+      ]
+    },
+    "Amaranthus": {
+      "id": 121,
+      "name": "Amaranthus",
+      "latin_name": "Amaranthus caudatus",
+      "description": "Floare curgatoare cu efect dramatic spectaculos. Simbolizeaza dragostea nemuritoare.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfUEWgwoWF12okG_YAwrE4VVdEyrNEgR_DDvgU1bYGjc-If9HdQMPIYMCoafUn7O7knjivN_VxYp0z_G_PaDFWNg",
+      "color_id": 1,
+      "keywords": [
+        "dragoste"
+      ]
+    },
+    "Anemona": {
+      "id": 73,
+      "name": "Anemona",
+      "latin_name": "Anemone coronaria",
+      "description": "Anemona este simbolul tinereții, frumuseții, dragostei, dar poate fi asociată și cu suferința cauzată de pierderea acestora.",
+      "image_url": "https://www.enrose.ro/wp-content/uploads/2021/01/enrose-anemone.jpg",
+      "color_id": 2,
+      "keywords": [
+        "dragoste"
+      ]
+    },
+    "Aspidistra": {
+      "id": 151,
+      "name": "Aspidistra",
+      "latin_name": "Aspidistra elatior",
+      "description": "Frunzele mari asiatice pentru accent dramatic. Simbolizeaza perseverenta si forta.",
+      "image_url": "https://www.plantdelights.com/cdn/shop/files/Aspidistra-elatior-Morning-Frost.i-7065.s-66581.r-1.jpg?v=1747246090",
+      "color_id": 8,
+      "keywords": []
+    },
+    "Aster": {
+      "id": 117,
+      "name": "Aster",
+      "latin_name": "Symphyotrichum spp.",
+      "description": "Floarea de toamna cu aspect de margareta. Simbolizeaza dragostea si rabdarea.",
+      "image_url": "https://hort.extension.wisc.edu/files/2024/08/Aster-oblongifolius-October-Skies-CBGlate-summer2-1536x1020.jpg",
+      "color_id": 6,
+      "keywords": [
+        "dragoste"
+      ]
+    },
+    "Astilbe": {
+      "id": 94,
+      "name": "Astilbe",
+      "latin_name": "Astilbe chinensis",
+      "description": "Floare cu penaj pufos, perfecta pentru umbra. Simbolizeaza gratia si eleganta delicata.",
+      "image_url": "https://www.gardenia.net/wp-content/uploads/2023/05/astilbe-chinensis-vision.webp",
+      "color_id": 3,
+      "keywords": [
+        "eleganta"
+      ]
+    },
+    "Azalee": {
+      "id": 140,
+      "name": "Azalee",
+      "latin_name": "Rhododendron spp.",
+      "description": "Floarea primaverii în gradinile japoneze. Simbolizeaza temperanta si pasiunea.",
+      "image_url": "https://www.glissandogardencenter.ro/wp-content/uploads/2019/05/Rododendron-Germania.jpg",
+      "color_id": 3,
+      "keywords": [
+        "pasiune"
+      ]
+    },
+    "Banksia": {
+      "id": 104,
+      "name": "Banksia",
+      "latin_name": "Banksia spp.",
+      "description": "Floare australiana cu forme cilindrice spectaculoase. Simbolizeaza unicitatea si puterea.",
+      "image_url": "https://www.calyxflowers.com/uploads/banksiacf.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    "Begonie": {
+      "id": 24,
+      "name": "Begonie",
+      "latin_name": "Begonia",
+      "description": "Floarea de begonie simbolizează gândurile negre întrucât este asociată cu avertismentul și precauția.",
+      "image_url": "https://lh7-us.googleusercontent.com/gl3C1ZNfkh43qUiydpPbjRgsnTOVQLf0ydAvigN5AfS2DGZeLExjWbpFSaT1Jgo12ZPFn0lcYDjt7ibVQBahhCHHwMTIAFG_lxdWi0LRbddQjzTpal9EpRiGkonF39X4GiE-cpoUzJogGvrc9HAQZA",
+      "color_id": 1,
+      "keywords": []
+    },
+    "Black-eyed Susan": {
+      "id": 118,
+      "name": "Black-eyed Susan",
+      "latin_name": "Rudbeckia hirta",
+      "description": "Floarea americana cu contrast dramatic. Simbolizeaza justitia si motivatia.",
+      "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQnhd0bJM-L9YifJ4i3dUnyRqDzkM55DfTgFvZ7gwOQHjYCeDnKK7Aa9Zc3mQ-BAIWjWUz6-3D1xHPeeDGueNyIuw",
+      "color_id": 4,
+      "keywords": []
+    },
+    "Bougainvillea": {
+      "id": 108,
+      "name": "Bougainvillea",
+      "latin_name": "Bougainvillea spectabilis",
+      "description": "Floare tropicala cu bractee colorate spectaculoase. Simbolizeaza pasiunea si energia.",
+      "image_url": "https://magazin.agrii.ro/media/magefan_blog/Bougainvillea_ingrijire.png",
+      "color_id": 3,
+      "keywords": [
+        "pasiune"
+      ]
+    },
+    "Bujor": {
+      "id": 12,
+      "name": "Bujor",
+      "latin_name": "Paeonia",
+      "description": "Bujorii roz sunt asociați cu romantismul, prosperitatea și norocul.",
+      "image_url": "https://bulbiromania.ro/wp-content/uploads/2018/04/peony-3004055_1920-e1697141613992-768x768.jpg",
+      "color_id": 3,
+      "keywords": [
+        "romantism"
+      ]
+    },
+    "Bujorul Moldovei": {
+      "id": 128,
+      "name": "Bujorul Moldovei",
+      "latin_name": "Paeonia peregrina",
+      "description": "Floarea nationala neoficiala, mândria Moldovei. Simbolizeaza patriotismul si mândria nationala.",
+      "image_url": "https://www.sor.ro/wp-content/uploads/1971/05/Bujor_romanesc_Pae_per_Nora_Anghelescu1-1536x1536.jpg",
+      "color_id": 1,
+      "keywords": []
+    },
+    "Bumbac": {
+      "id": 145,
+      "name": "Bumbac",
+      "latin_name": "Gossypium spp.",
+      "description": "Elementul textural esential rustic si modern. Simbolizeaza comoditatea si naturaletea.",
+      "image_url": "https://bugwoodcloud.org/images/384x256/5544467.jpg",
+      "color_id": 2,
+      "keywords": []
+    },
+    "Cala": {
+      "id": 28,
+      "name": "Cala",
+      "latin_name": "Zantedeschia aethiopica",
+      "description": "Cala albă simbolizează puritatea, sfințenia și frumusețea elegantă.",
+      "image_url": "https://media.bzi.ro/unsafe/700x700/smart/filters:contrast(5):format(webp)/https://bzi.ro/wp-content/uploads/2022/02/cala-floarea-mortii-9.jpg",
+      "color_id": 2,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    "Camellia": {
+      "id": 126,
+      "name": "Camellia",
+      "latin_name": "Camellia japonica",
+      "description": "Floarea aristocrata de iarna si primavara. Simbolizeaza admiratia si perfectiunea.",
+      "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQD9vQXZDa8c3gTvVnk-eliRpYSjHpYm2o4Db3Sz33JlAuLq-XilLhRWxfw_tajI_IxC9LazL2sJR7dThRvDLCHOA",
+      "color_id": 3,
+      "keywords": []
+    },
+    "Celosia": {
+      "id": 107,
+      "name": "Celosia",
+      "latin_name": "Celosia cristata",
+      "description": "Floare cu texturi de catifea si forme dramatice. Simbolizeaza nemurirea si pasiunea.",
+      "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQpm61sv6uPDius8EkNJ93FbGPdMFEXPpYveG8nEb7-TwWKw6a9Z9V2OzQ5TPQ7YUZVCBuBO4chtl6tA0THAK1jFg",
+      "color_id": 1,
+      "keywords": [
+        "pasiune"
+      ]
+    },
+    "Cicoare": {
+      "id": 135,
+      "name": "Cicoare",
+      "latin_name": "Cichorium intybus",
+      "description": "Floarea albastra de la marginea drumurilor. Simbolizeaza frugalitatea si perseverenta.",
+      "image_url": "https://www.naturalherbs.ro/wp-content/uploads/2016/09/Katang_03-683x1024-1440x2158.jpg",
+      "color_id": 7,
+      "keywords": []
+    },
+    "Clopoțel de Texas": {
+      "id": 72,
+      "name": "Clopoțel de Texas",
+      "latin_name": "Eustoma grandiflorum",
+      "description": "Clopoțel de Texas este o floare eleganta cu petale delicate. Simbolizeaza aprecierea, carisma si recunostinta pentru cineva special.",
+      "image_url": "https://www.livrarefloribucuresti.ro/images/flori/large/magia-florilor-de-lisianthus-GSDlI.jpg",
+      "color_id": 6,
+      "keywords": [
+        "eleganta",
+        "recunostinta"
+      ]
+    },
+    "Cosmos": {
+      "id": 110,
+      "name": "Cosmos",
+      "latin_name": "Cosmos bipinnatus",
+      "description": "Floare simpla si delicata a verii târzii. Simbolizeaza ordinea si pacea.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZhv6Xl_9b94L2DmjgqRbT6mwuogxJuMypzp6dGErcEj4vVg5R9u_Ml1oSSP2aCiK5n2JeO0ua8YvxNCPrpExJIQ",
+      "color_id": 3,
+      "keywords": [
+        "pace"
+      ]
+    },
+    "Crin Alb": {
+      "id": 9,
+      "name": "Crin Alb",
+      "latin_name": "Lilium candidum",
+      "description": "Crinul alb simbolizează puritatea, virtutea și frumusețea.",
+      "image_url": "https://www.gardenexpert.ro/1483-thickbox_default/crin-alb.jpg",
+      "color_id": 2,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    "Crin de Padure": {
+      "id": 136,
+      "name": "Crin de Padure",
+      "latin_name": "Lilium martagon",
+      "description": "Crinul salbatic din padurile Carpatilor. Simbolizeaza salbaticia si libertatea naturii.",
+      "image_url": "https://images.immediate.co.uk/production/volatile/sites/10/2018/08/4947f571-e086-4bf2-b597-a8a3b0b588c2-0f9b5dc.jpg?quality=90&webp=true&resize=650,434",
+      "color_id": 6,
+      "keywords": []
+    },
+    "Crin peruan": {
+      "id": 77,
+      "name": "Crin peruan",
+      "latin_name": "Alstroemeria",
+      "description": "Alstroemeria, sau crinul peruvian, este o floare colorata cu petale marcate distinct. Simbolizeaza prietenia, devotamentul ?i sus?inerea reciproca.",
+      "image_url": "https://www.pheasantacreplants.co.uk/cms/wp-content/uploads/2024/07/alstroemeria-summer-break_9451.webp",
+      "color_id": 3,
+      "keywords": [
+        "devotament"
+      ]
+    },
+    "Crin Roz": {
+      "id": 69,
+      "name": "Crin Roz",
+      "latin_name": "Lilium",
+      "description": "Crinul roz este o floare maiestuoasă cu o aromă intensă. Simbolizează prosperitatea, fertilitatea și puritatea. Este asociat cu feminitatea și tinerețea.",
+      "image_url": "https://www.magnolia.ro/blog/images/gallery/semnificatia-crinului-ce-mesaj-transmitem-atunci-cand-il-oferim/crini_roz_buchet.jpg",
+      "color_id": 3,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    "Crin Tiger": {
+      "id": 142,
+      "name": "Crin Tiger",
+      "latin_name": "Lilium lancifolium",
+      "description": "Crinul asian cu pete caracteristice. Simbolizeaza bogatia si prosperitatea.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Lilium_lancifolium_7757.jpg",
+      "color_id": 5,
+      "keywords": []
+    },
+    "Crizantemă Albă": {
+      "id": 22,
+      "name": "Crizantemă Albă",
+      "latin_name": "Chrysanthemum",
+      "description": "Crizantemele albe simbolizează adevărul și loialitatea. Crizantemele albe pot simboliza puritatea si tristetea.",
+      "image_url": "https://koreafilm.ro/blog/wp-content/uploads/2010/11/crizantema-alba.jpg",
+      "color_id": 2,
+      "keywords": [
+        "tristete",
+        "puritate",
+        "loialitate"
+      ]
+    },
+    "Crizantemă Galbenă": {
+      "id": 23,
+      "name": "Crizantemă Galbenă",
+      "latin_name": "Chrysanthemum",
+      "description": "Crizantemele galbene pot simboliza iubirea disprețuită sau tristețea.",
+      "image_url": "https://seminteflori.com/wp-content/uploads/2022/03/chrysanthemum-parthenium-dwarf-golden-ball-2.jpg",
+      "color_id": 4,
+      "keywords": [
+        "iubire"
+      ]
+    },
+    "Crizantema Japoneza": {
+      "id": 138,
+      "name": "Crizantema Japoneza",
+      "latin_name": "Chrysanthemum morifolium",
+      "description": "Floarea imperiala japoneza cu forme traditionale. Simbolizeaza longevitatea si onoarea.",
+      "image_url": "https://images.finegardening.com/app/uploads/2018/01/23143717/chrysanthemummorifoliumlinda_cc_2_lg_0-thumb1x1.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    "Dalie": {
+      "id": 68,
+      "name": "Dalie",
+      "latin_name": "Dahlia",
+      "description": "Dalia este o floare opulentă, cu petale aranjate simetric. Simbolizează demnitatea, eleganța și recunoștința veșnică.",
+      "image_url": "https://mariavoichitamiereanu.wordpress.com/wp-content/uploads/2014/10/dalia.jpg",
+      "color_id": 1,
+      "keywords": []
+    },
+    "Delphinium": {
+      "id": 91,
+      "name": "Delphinium",
+      "latin_name": "Delphinium elatum",
+      "description": "Floare înalta si statuara, perfecta pentru aranjamente mari. Simbolizeaza bucuria mare si generozitatea.",
+      "image_url": "https://www.famousroses.eu/cdn/shop/files/delphinium-elatum-darwins-blue-indulgence-perene-butasi-trandafiri-gradina-in-ghiveci-sau-radacina-libera-611233.jpg?v=1721375027",
+      "color_id": 7,
+      "keywords": []
+    },
+    "Dusty Miller": {
+      "id": 153,
+      "name": "Dusty Miller",
+      "latin_name": "Senecio cineraria",
+      "description": "Planta argintie pentru contrast elegant. Simbolizeaza rafinamentul si eleganta.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGPrkvWYw9VSddrj202Sg-AkZDbXxQSF_Hh6cWTcEt7ArC7Mjjy0rIbFtj2STYLQk9XH6WN5H6vdeFETPHLIy69g",
+      "color_id": 8,
+      "keywords": [
+        "eleganta"
+      ]
+    },
+    "Eucalipt": {
+      "id": 81,
+      "name": "Eucalipt",
+      "latin_name": "Eucalyptus globulus",
+      "description": "Eucaliptul simbolizeaza protectia, purificarea si energia pozitiva. Este folosit frecvent în buchete pentru verdeture si aroma.",
+      "image_url": "https://golgemma.com/wp-content/uploads/photo-produit-HYDA0013.jpg",
+      "color_id": 8,
+      "keywords": []
+    },
+    "Feriga Leatherleaf": {
+      "id": 148,
+      "name": "Feriga Leatherleaf",
+      "latin_name": "Rumohra adiantiformis",
+      "description": "Feriga profesionala standard în florarie. Simbolizeaza sinceritatea si fascinatia.",
+      "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTuS5ARhD1-YFCrZy-dxj-pO5Hcq20a8uiWNx2IRlPiEWwvvh9P92i3M8A9DaCCiplauOTaLV5lGj0mN7yy3dU9rnlvGCRb8kK0YgyE1Q",
+      "color_id": 8,
+      "keywords": [
+        "sinceritate"
+      ]
+    },
+    "Feverfew": {
+      "id": 116,
+      "name": "Feverfew",
+      "latin_name": "Tanacetum parthenium",
+      "description": "Planta medicinala cu flori mici si dese. Simbolizeaza protectia si sanatatea.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTakxf4Nv4PmMUnXjiyWQLk5qXNx_w8A5rJmyD7yhqPI-2jVMF8qpAtaco3mgDRxXeAImvhzMCPLYuwvPNtfBunEw",
+      "color_id": 2,
+      "keywords": []
+    },
+    "Floarea de Cires": {
+      "id": 123,
+      "name": "Floarea de Cires",
+      "latin_name": "Prunus serrulata",
+      "description": "Floarea simbolica japoneza reprezentând frumusetea vietii. Simbolizeaza frumusetea efemera.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwopfV2gtM0Yj9F81fT9tyxjH14_RIpIkh7rl5OlvpckJ3jSzsicy89f80HJ15KL04_W3ojPJ1g8oSrn-BOD0fgw",
+      "color_id": 3,
+      "keywords": [
+        "frumusete"
+      ]
+    },
+    "Floarea Flamingo": {
+      "id": 66,
+      "name": "Floarea Flamingo",
+      "latin_name": "Anthurium andraeanum",
+      "description": "Anthurium, cunoscut și ca floarea flamingo, este o floare tropicală cu o formă distinctivă, de inimă lucioasă. Simbolizează ospitalitatea, fericirea și abundența.",
+      "image_url": "https://cdn.adh.reperio.news/image-0/07685f97-3f9e-4352-8280-09cdc43ba638/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D1400%26h%3D750%26r%3Dcontain%26f%3Dwebp",
+      "color_id": 1,
+      "keywords": [
+        "fericire"
+      ]
+    },
+    "Floarea miresei": {
+      "id": 78,
+      "name": "Floarea miresei",
+      "latin_name": "Gypsophila paniculata",
+      "description": "Floarea miresei, simbolizează puritatea și dragostea sinceră, dar și respectul reciproc, fiind asociați cu tinerețea și noile începuturi.",
+      "image_url": "https://www.aquarelle.md/fileman/buchetul_miresei_din_gypsophila.jpg",
+      "color_id": 2,
+      "keywords": [
+        "dragoste",
+        "respect",
+        "puritate"
+      ]
+    },
+    "Floarea Soarelui": {
+      "id": 3,
+      "name": "Floarea Soarelui",
+      "latin_name": "Helianthus annuus",
+      "description": "Floarea-soarelui este o plantă anuală din familia Asteraceae, nativă din America. Este una din compozitele cele mai cultivate pentru semințele bogate în ulei, din acestea fiind extras uleiul de floarea-soarelui. Frunzele sunt mari, întregi, pețiolate și cordate.",
+      "image_url": "https://npr.brightspotcdn.com/dims4/default/68545b1/2147483647/strip/true/crop/2048x1536+0+0/resize/1760x1320!/format/webp/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7c%2F15%2F1d76bc934e8cb103a56d43eedc7b%2Fsunflower-wide.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    "Forsythia": {
+      "id": 124,
+      "name": "Forsythia",
+      "latin_name": "Forsythia spp.",
+      "description": "Primul arbust care explodeaza în galben primavara. Simbolizeaza anticiparea.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Forsythia_flower.JPG",
+      "color_id": 4,
+      "keywords": []
+    },
+    "Frezie": {
+      "id": 20,
+      "name": "Frezie",
+      "latin_name": "Freesia refracta",
+      "description": "Freziile simbolizează inocența și prietenia.",
+      "image_url": "https://flowers-garden.ro/wp-content/uploads/2020/01/buchet-cadou-cu-frezii-galbene.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    "Gardenie": {
+      "id": 99,
+      "name": "Gardenie",
+      "latin_name": "Gardenia jasminoides",
+      "description": "Floare cu parfum intoxicant si petale catifelate. Simbolizeaza puritatea secreta.",
+      "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTE8xOpRNmxHbcg7gfWGDfRRqFOS3c-OfbI72f6uiLs2-pDKr2QGdu3_i3XtH8lprEZuWE7qXsbyrYYCTh9-XLevA",
+      "color_id": 2,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    "Garofiță Albă": {
+      "id": 17,
+      "name": "Garofiță Albă",
+      "latin_name": "Dianthus caryophyllus",
+      "description": "Garoafele albe reprezintă inocența și devotamentul.",
+      "image_url": "https://scms.machteamsoft.ro/uploads/photos/original/109982-1.jpg",
+      "color_id": 2,
+      "keywords": [
+        "devotament"
+      ]
+    },
+    "Garofiță Roșie": {
+      "id": 16,
+      "name": "Garofiță Roșie",
+      "latin_name": "Dianthus caryophyllus",
+      "description": "Garoafele roșii semnifică dragostea și admirația.",
+      "image_url": "https://www.magnolia.ro/blog/wp-content/uploads/2016/07/istoria-si-semnificatiile-au-garoafei.jpg",
+      "color_id": 1,
+      "keywords": [
+        "dragoste"
+      ]
+    },
+    "Garofita Roz": {
+      "id": 85,
+      "name": "Garofita Roz",
+      "latin_name": "Dianthus plumarius",
+      "description": "Garoafele roz simbolizeaza recunostinta, multumirea si amintirile frumoase.",
+      "image_url": "https://okflora.r.worldssl.net/files/getfilecdn/25814/garoafe-roz-49-2-w445-h445.webp",
+      "color_id": 3,
+      "keywords": [
+        "recunostinta"
+      ]
+    },
+    "Gerbera Galbenă": {
+      "id": 31,
+      "name": "Gerbera Galbenă",
+      "latin_name": "Gerbera jamesonii",
+      "description": "Gerbera galbenă simbolizează veselia.",
+      "image_url": "https://sfatulparintilor.ro/wp-content/uploads/2020/11/Ce-semnifica-culoarea-galben-sfatulparintilor.ro-pixabay_com-baberton-3318688_1920-1400x850.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    "Gerbera Roșie": {
+      "id": 29,
+      "name": "Gerbera Roșie",
+      "latin_name": "Gerbera jamesonii",
+      "description": "Gerbera roșie simbolizează iubirea pasională.",
+      "image_url": "http://www.gradinamea.ro/_files/Image/articole/original/20040828_15_parisperelachaisegerbera.JPG",
+      "color_id": 1,
+      "keywords": [
+        "iubire"
+      ]
+    },
+    "Gerbera Roz": {
+      "id": 30,
+      "name": "Gerbera Roz",
+      "latin_name": "Gerbera jamesonii",
+      "description": "Gerbera roz simbolizează aprecierea și admirația.",
+      "image_url": "https://www.magnolia.ro/blog/wp-content/uploads/2017/04/gerbera.jpg",
+      "color_id": 3,
+      "keywords": []
+    },
+    "Ghiocel": {
+      "id": 13,
+      "name": "Ghiocel",
+      "latin_name": "Galanthus nivalis",
+      "description": "Ghiocelul este un simbol al speranței și al renașterii primăverii.",
+      "image_url": "https://cdn.pixabay.com/photo/2016/01/28/16/18/spring-1166564_1280.jpg",
+      "color_id": 2,
+      "keywords": []
+    },
+    "Glicina": {
+      "id": 102,
+      "name": "Glicina",
+      "latin_name": "Wisteria sinensis",
+      "description": "Floare cataracta cu parfum intens de primavara. Simbolizeaza devotiunea si romantismul intens.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Chinesischer_Blauregen_Detail_Bl%C3%BCtentraube.JPG/500px-Chinesischer_Blauregen_Detail_Bl%C3%BCtentraube.JPG",
+      "color_id": 6,
+      "keywords": [
+        "romantism"
+      ]
+    },
+    "Grâu": {
+      "id": 146,
+      "name": "Grâu",
+      "latin_name": "Triticum aestivum",
+      "description": "Cereala decorativa simbolizând abundenta. Simbolizeaza recolta si prosperitatea.",
+      "image_url": "https://live.staticflickr.com/2711/4190569720_4b2c376c6a_b.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    "Gura Leului ": {
+      "id": 21,
+      "name": "Gura Leului ",
+      "latin_name": "Antirrhinum majus",
+      "description": "Gura leului era o floare dedicată femeilor și se mai spunea că farmecul ei tainic le apără pe tinerele frumoase de invidia și dușmănia celorlalte femei.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Antirrhinum_majus-Flower_02.jpg/500px-Antirrhinum_majus-Flower_02.jpg",
+      "color_id": 3,
+      "keywords": []
+    },
+    "Gypsophila": {
+      "id": 144,
+      "name": "Gypsophila",
+      "latin_name": "Gypsophila paniculata",
+      "description": "Floarea de completare clasica universala. Simbolizeaza inocenta pura si iubirea eterna.",
+      "image_url": "https://docaperene.ro/cdn/shop/files/GypsophilapaniculataSnowflake1_940x.jpg?v=1739970107",
+      "color_id": 2,
+      "keywords": [
+        "iubire"
+      ]
+    },
+    "Hellebore": {
+      "id": 93,
+      "name": "Hellebore",
+      "latin_name": "Helleborus niger",
+      "description": "Floarea de iarna care înfloreste în zapada. Cunoscuta ca trandafirul de Craciun.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Helleborus_niger_Kaiser.jpg",
+      "color_id": 2,
+      "keywords": []
+    },
+    "Hortensie Albastră": {
+      "id": 60,
+      "name": "Hortensie Albastră",
+      "latin_name": "Hydrangea macrophylla",
+      "description": "Hortensia albastră este o floare decorativă originară din Asia, apreciată pentru inflorescențele sale ample și colorate. Simbolizează recunoștința, înțelegerea și sinceritatea.",
+      "image_url": "https://www.magnolia.ro/blog/wp-content/uploads/2018/06/ce-semnifica-hortnesiile.jpg",
+      "color_id": 7,
+      "keywords": [
+        "sinceritate"
+      ]
+    },
+    "Hortensie verde": {
+      "id": 79,
+      "name": "Hortensie verde",
+      "latin_name": "Hydrangea Macrophylla",
+      "description": "Pe de o parte, sunt simbolul purității, al delicateții, pe de altă parte, pot reprezenta lăudăroșenia.",
+      "image_url": "https://grow.decorexpro.com/wp-content/uploads/2018/10/21-1.jpg",
+      "color_id": 8,
+      "keywords": []
+    },
+    "Iasomie": {
+      "id": 74,
+      "name": "Iasomie",
+      "latin_name": "Jasminum",
+      "description": "Iasomia este un arbust cu flori mici, albe, extrem de parfumate. Simbolizeaza puritatea, modestia si gratia. Este asociata cu iubirea divina.",
+      "image_url": "https://canal33.ro/wp-content/uploads/2024/05/jasmine-3217541_1280-1.jpg",
+      "color_id": 2,
+      "keywords": [
+        "iubire",
+        "puritate"
+      ]
+    },
+    "Iasomie Asiatica": {
+      "id": 141,
+      "name": "Iasomie Asiatica",
+      "latin_name": "Jasminum sambac",
+      "description": "Iasomia folosita pentru ceai si parfumuri. Simbolizeaza gratia divina si puritatea.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Arabian_jasmin%2C_Tunisia_2010.jpg",
+      "color_id": 2,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    "Iedera": {
+      "id": 152,
+      "name": "Iedera",
+      "latin_name": "Hedera helix",
+      "description": "Planta cazaratoare clasica europeana. Simbolizeaza fidelitatea si prietenia.",
+      "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTUR_xoKp1q5tOT1ej3315Ifai05u52jofPiZzMxLs-sjZbeyOUeWWyUSX4yOggxZMcBoddOTIuuL614_-RgqYDvw",
+      "color_id": 8,
+      "keywords": []
+    },
+    "Iris": {
+      "id": 61,
+      "name": "Iris",
+      "latin_name": "Iris germanica",
+      "description": "Irisul este o floare elegantă și impunătoare, cu o formă distinctivă. Simbolizează înțelepciunea, credința și curajul.",
+      "image_url": "https://bloomeria.ro/pub/media/amasty/webp/wysiwyg/blog/ingrijirea-florii-de-iris-crestere-cultivaer-ghiveci_jpg.webp",
+      "color_id": 6,
+      "keywords": [
+        "curaj"
+      ]
+    },
+    "Iris de Primavara": {
+      "id": 127,
+      "name": "Iris de Primavara",
+      "latin_name": "Iris reticulata",
+      "description": "Irisul mic si precoce de început de primavara. Simbolizeaza mesajele si speranta.",
+      "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQwfa1KvkLu_OmRX2zZxc1c7XRZIjCRQHKEbc4P5HU8KIx75b9JQsMVV08exRs-XuIrCFt7NY_QBGP19wHPxuKyXQ",
+      "color_id": 7,
+      "keywords": [
+        "speranta"
+      ]
+    },
+    "Kangaroo Paw": {
+      "id": 106,
+      "name": "Kangaroo Paw",
+      "latin_name": "Anigozanthos flavidus",
+      "description": "Floarea australiana cu forme de laba de cangur. Simbolizeaza unicitatea si adaptabilitatea.",
+      "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMiVDDfgVVIOymQkm9fpGEUDuUvQi-HPBp7JjL_XeA51LJXNxM_yv8nBiQiENj9nickgrG3XV06T47bFfLqGI4sg",
+      "color_id": 1,
+      "keywords": []
+    },
+    "Lacramioare": {
+      "id": 92,
+      "name": "Lacramioare",
+      "latin_name": "Convallaria majalis",
+      "description": "Floare delicata si parfumata, simbolul umilitatii si puritatii. Traditionala pentru nunti în Europa.",
+      "image_url": "https://c.cdnmp.net/358998178/p/m/1/lacramioare-convallaria-majalis-doreen~2411.jpg",
+      "color_id": 2,
+      "keywords": []
+    },
+    "Lalea Galbenă": {
+      "id": 8,
+      "name": "Lalea Galbenă",
+      "latin_name": "Tulipa",
+      "description": "Lalelele galbene simbolizează fericirea și veselia.",
+      "image_url": "https://prinde100.wordpress.com/wp-content/uploads/2010/04/img00290-20100417-1508.jpg",
+      "color_id": 4,
+      "keywords": [
+        "fericire"
+      ]
+    },
+    "Lalea Roșie": {
+      "id": 2,
+      "name": "Lalea Roșie",
+      "latin_name": "Tulipa",
+      "description": "Lalelele roșii sunt asociate cu dragostea. Poate fi vorba despre dragoste la început de drum, fiind, de multe ori, și preferatele tinerilor îndrăgostiți, dar și despre o dragoste matură, lalelele roșii simbolizând profunzimea sentimentelor și durabilitatea lor.",
+      "image_url": "https://gomagcdn.ro/domains2/planteieftine.ro/files/product/original/lalea-rosie-escape-048184.jpg",
+      "color_id": 1,
+      "keywords": [
+        "dragoste"
+      ]
+    },
+    "Lalea Roz": {
+      "id": 83,
+      "name": "Lalea Roz",
+      "latin_name": "Tulipa darwin",
+      "description": "Lalelele roz simbolizeaza afectiunea, grija si dragostea familiala. Perfecte pentru relatii calde si apropiate.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvpwdszptnx9KXofae4tfNSQGYVVMFXZCpTQ&s",
+      "color_id": 3,
+      "keywords": [
+        "dragoste"
+      ]
+    },
+    "Lalele Colorate": {
+      "id": 84,
+      "name": "Lalele Colorate",
+      "latin_name": "Tulipa triumph",
+      "description": "Lalelele colorate simbolizeaza diversitatea, bucuria si vitalitatea. Aduc energie si voie buna.",
+      "image_url": "https://ruigrokflowerbulbs.com/wp-content/uploads/2022/03/Triumph-Mix-2021_05_07_030971.jpg",
+      "color_id": 4,
+      "keywords": [
+        "energie",
+        "vitalitate"
+      ]
+    },
+    "Lamb's Ear": {
+      "id": 154,
+      "name": "Lamb's Ear",
+      "latin_name": "Stachys byzantina",
+      "description": "Planta cu textura matasoasa unica. Simbolizeaza blândetea si confortul.",
+      "image_url": "https://www.gardenia.net/wp-content/uploads/2015/02/shutterstock_549414640.jpg",
+      "color_id": 8,
+      "keywords": []
+    },
+    "Lavandă": {
+      "id": 19,
+      "name": "Lavandă",
+      "latin_name": "Lavandula",
+      "description": "Lavanda simbolizează calmul, puritatea și devotamentul.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Single_lavender_flower02.jpg",
+      "color_id": 6,
+      "keywords": [
+        "puritate",
+        "devotament"
+      ]
+    },
+    "Leucadendron": {
+      "id": 103,
+      "name": "Leucadendron",
+      "latin_name": "Leucadendron spp.",
+      "description": "Floare africana cu frunzaj colorat durabil. Simbolizeaza diversitatea si rezistenta.",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/3a2pScQT8wkiVnKfT85j3V.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    "Leucospermum": {
+      "id": 105,
+      "name": "Leucospermum",
+      "latin_name": "Leucospermum cordifolium",
+      "description": "Floarea africana cu aspect de pernuta pentru ace. Simbolizeaza protectia si grija.",
+      "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ6cfqMCj7Cw8dsY9tXT17i1PPQRNN8O9_BLjVrFNPRMGT-KOQY5UyIYwp1dnRHVr9o188kImRWpA6-fjWtpMv5kw",
+      "color_id": 5,
+      "keywords": []
+    },
+    "Liliac": {
+      "id": 71,
+      "name": "Liliac",
+      "latin_name": "Syringa vulgaris",
+      "description": "Liliacul este un arbust înflorit, apreciat pentru parfumul său intens și pentru frumusețea inflorescențelor. Simbolizează primele emoții ale dragostei.",
+      "image_url": "https://mediacdn.libertatea.ro/unsafe/1260x708/smart/filters:format(webp):contrast(8):quality(75)/https://static4.libertatea.ro/wp-content/uploads/2021/05/liliac-plantare-ingrijire.jpg",
+      "color_id": 6,
+      "keywords": [
+        "dragoste"
+      ]
+    },
+    "Lisianthus": {
+      "id": 90,
+      "name": "Lisianthus",
+      "latin_name": "Eustoma grandiflorum",
+      "description": "Floare eleganta cu aspect de trandafir dar mai durabila. Simbolizeaza aprecierea si eleganta.",
+      "image_url": "https://mullerseeds.ro/app/uploads/2024/12/FRS708-01-300x300.jpg",
+      "color_id": 6,
+      "keywords": [
+        "eleganta"
+      ]
+    },
+    "Lotus": {
+      "id": 139,
+      "name": "Lotus",
+      "latin_name": "Nelumbo nucifera",
+      "description": "Floarea sacra budista si hinduista. Simbolizeaza puritatea spirituala si iluminarea.",
+      "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR_0S52De6QfNLY7-MV35ti6sqWZd_qtFCEnyTSn4goTo6rHImBXLdDTXG-AiQ8dzM4Gjs39DNNVkoLsrWaad61ZQ",
+      "color_id": 3,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    "Mac": {
+      "id": 87,
+      "name": "Mac",
+      "latin_name": "Papaver rhoeas",
+      "description": "Macul simbolizeaza amintirea, consolarea si pacea. Folosit adesea pentru comemorari.",
+      "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS2BNKRQ27ewVI5jzAs3eBtIfFkI62KzSAq2gTh2-nKq7oluhGCevBJfFOxwCgu73x696AcuEXWWAJidpEsJnwNbw",
+      "color_id": 1,
+      "keywords": [
+        "pace"
+      ]
+    },
+    "Magnolia": {
+      "id": 75,
+      "name": "Magnolia",
+      "latin_name": "Magnolia grandiflora",
+      "description": "Magnolia este un arbore cu flori spectaculoase, mari si parfumate. Simbolizeaza demnitatea, perseverenta si iubirea pentru natura.",
+      "image_url": "https://buchetefloria.wordpress.com/wp-content/uploads/2015/02/magnolia_semnificatie.jpg",
+      "color_id": 2,
+      "keywords": [
+        "iubire"
+      ]
+    },
+    "Mar în Floare": {
+      "id": 131,
+      "name": "Mar în Floare",
+      "latin_name": "Malus domestica",
+      "description": "Simbolul fertilitatii în tara noastra. Simbolizeaza abundenta si fertilitatea.",
+      "image_url": "https://plantsam.com/wp-content/uploads/2021/12/Malus-domestica.jpg",
+      "color_id": 2,
+      "keywords": []
+    },
+    "Margarete": {
+      "id": 86,
+      "name": "Margarete",
+      "latin_name": "Bellis perennis",
+      "description": "Margaretele simbolizeaza inocenta, simplitatea si noul început. Flori clasice si timeless.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi7lKe4m72nFhdbjX1fzOWLglPhYrwynnU3kaKvjCuGBO9UD7MwKm1mS6MPoFFEI3FFieoEF6ihC9JgbYg9eSGiQ",
+      "color_id": 2,
+      "keywords": []
+    },
+    "Menta": {
+      "id": 158,
+      "name": "Menta",
+      "latin_name": "Mentha spp.",
+      "description": "Planta aromatica cu flori mici si discrete. Simbolizeaza prospetimea si claritatea mentala.",
+      "image_url": "https://monticelloshop.org/cdn/shop/files/common-mint-seeds-mentha-spp-209494_1800x1800.png?v=1742996226",
+      "color_id": 2,
+      "keywords": []
+    },
+    "Morning Glory": {
+      "id": 143,
+      "name": "Morning Glory",
+      "latin_name": "Ipomoea purpurea",
+      "description": "Floarea care se deschide diminea?a. Simbolizeaza iubirea în zadar si afectiunea.",
+      "image_url": "https://www.gardenia.net/wp-content/uploads/2023/05/Ipomoea-Purpurea-Morning-Glory.webp",
+      "color_id": 6,
+      "keywords": [
+        "iubire"
+      ]
+    },
+    "Mușețel": {
+      "id": 18,
+      "name": "Mușețel",
+      "latin_name": "Matricaria chamomilla",
+      "description": "Mușețelul este adesea asociat cu calmul, pacea și vindecarea.",
+      "image_url": "https://www.springfarma.com/media/wysiwyg/cms/articole/3mus.jpg",
+      "color_id": 2,
+      "keywords": [
+        "pace"
+      ]
+    },
+    "Muscarica": {
+      "id": 120,
+      "name": "Muscarica",
+      "latin_name": "Myosotis sylvatica",
+      "description": "Floare mica a adevaratei iubiri. Simbolizeaza amintirile adevarate si fidelitatea.",
+      "image_url": "https://www.gardenia.net/wp-content/uploads/2023/05/myosotis-sylvatica-forget-me-not-780x520.webp",
+      "color_id": 7,
+      "keywords": []
+    },
+    "Muscata": {
+      "id": 157,
+      "name": "Muscata",
+      "latin_name": "Pelargonium spp.",
+      "description": "Floare clasica de balcon cu miros placut. Simbolizeaza prietenia adevarata si confortul.",
+      "image_url": "https://www.gardenia.net/wp-content/uploads/2023/04/1RYX8vvagYKzgzRPdUndx4PFdPK0FKt7RIqFQOc8-780x520.webp",
+      "color_id": 3,
+      "keywords": []
+    },
+    "Narcisă": {
+      "id": 15,
+      "name": "Narcisă",
+      "latin_name": "Narcissus",
+      "description": "Narcisele simbolizează noi începuturi și bucuria primăverii.",
+      "image_url": "https://horticultura.ro/wp-content/uploads/2024/03/Narcise-Horticultura-Timisoara-1-800x600.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    "Nemțisor": {
+      "id": 62,
+      "name": "Nemțisor",
+      "latin_name": "Delphinium elatum",
+      "description": "Delphiniumul este o floare înaltă și spectaculoasă, cu inflorescențe bogate în nuanțe de albastru. Simbolizează deschiderea către noi experiențe și protecție.",
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311273569/medium.jpg",
+      "color_id": 7,
+      "keywords": []
+    },
+    "Nufăr": {
+      "id": 70,
+      "name": "Nufăr",
+      "latin_name": "Nymphaea",
+      "description": "Nufărul roz este o floare acvatică de o frumusețe deosebită. În cultura orientală, simbolizează puritatea inimii și a minții, iluminarea spirituală.",
+      "image_url": "https://i0.wp.com/nuferidevanzare.ro/wp-content/uploads/2013/04/nuferi-roz-vanzare-1.jpg?zoom=1.25&resize=375%2C250",
+      "color_id": 3,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    "Nu-mă-uita": {
+      "id": 63,
+      "name": "Nu-mă-uita",
+      "latin_name": "Myosotis sylvatica",
+      "description": "Nemțișorul sau nu-mă-uita este o floare delicată, cu flori mici de culoare albastră. Simbolizează amintirile dragi și iubirea adevărată.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Myosotislatifolia.jpg",
+      "color_id": 7,
+      "keywords": [
+        "iubire"
+      ]
+    },
+    "Orhidee fluture": {
+      "id": 67,
+      "name": "Orhidee fluture",
+      "latin_name": "Phalaenopsis",
+      "description": "Orhidee fluture este una dintre cele mai populare și elegante specii de orhidee. Are flori delicate care simbolizează rafinamentul, frumusețea și perfecțiunea.",
+      "image_url": "http://www.biaplant.ro/repository/files/f2ab2120a80c93c7d2e37325993608b8.jpg",
+      "color_id": 5,
+      "keywords": []
+    },
+    "Orhidee Roz": {
+      "id": 11,
+      "name": "Orhidee Roz",
+      "latin_name": "Orchidaceae",
+      "description": "Orhideele roz simbolizează grația, eleganța și feminitatea.",
+      "image_url": "https://mathaus.ro/medias/sys_master/root/he8/hcd/h00/9494804561950/Orhidee-Phalaenopsis.jpg",
+      "color_id": 3,
+      "keywords": []
+    },
+    "Pampas Grass": {
+      "id": 147,
+      "name": "Pampas Grass",
+      "latin_name": "Cortaderia selloana",
+      "description": "Iarba decorativa trendy pentru design modern. Simbolizeaza eleganta naturala.",
+      "image_url": "https://florastore.com/cdn/shop/files/2551036_Atmosphere_01_SQ_a74d718e-9f52-4f6f-ad74-fb3ba9118cb6.jpg?v=1744897738&width=1080",
+      "color_id": 2,
+      "keywords": [
+        "eleganta"
+      ]
+    },
+    "Petunie": {
+      "id": 25,
+      "name": "Petunie",
+      "latin_name": "Petunia",
+      "description": "Petunia este, pe de o parte, un simbol al mâniei şi resentimentului, îndeosebi când îţi este dată de cineva cu care ai avut de curând o neînţelegere, o ceartă înfierbântată. Pe de altă parte, semnifică \"nu-ţi pierde speranţa.",
+      "image_url": "https://florariatrias.b-cdn.net/wp-content/uploads/2023/06/PETUNIA-%E2%80%93-FLOAREA-PARFUMATA-DE-EXTERIOR-1-1536x864.jpg",
+      "color_id": 6,
+      "keywords": []
+    },
+    "Piciorul cocoșului": {
+      "id": 76,
+      "name": "Piciorul cocoșului",
+      "latin_name": "Ranunculus asiaticus",
+      "description": "Ranunculusul, cunoscut si ca piciorul cocosului, are flori bogat colorate cu numeroase petale delicate. Simbolizeaza farmecul si atractia.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Persian_buttercup_%28Ranunculus_asiaticus%29.jpg/500px-Persian_buttercup_%28Ranunculus_asiaticus%29.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    "Pittosporum": {
+      "id": 150,
+      "name": "Pittosporum",
+      "latin_name": "Pittosporum tobira",
+      "description": "Frunzajul decorativ cu parfum discret. Simbolizeaza eleganta discreta.",
+      "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRu28aqH3G4y_nAOgO7FVfA20vVLh9PjD9prWuawkTO6c3SnfBiOdo2kwtPEubUFTsx9tjfU8aVDbwuKSmaDZhmTA",
+      "color_id": 8,
+      "keywords": [
+        "eleganta"
+      ]
+    },
+    "Plumeria": {
+      "id": 101,
+      "name": "Plumeria",
+      "latin_name": "Plumeria spp.",
+      "description": "Floarea tropicala hawaiana cu parfum intens. Simbolul ospitalitatii si vietii noi.",
+      "image_url": "https://animals.sandiegozoo.org/sites/default/files/2017-12/plumeria-yellow.jpg",
+      "color_id": 2,
+      "keywords": []
+    },
+    "Protea": {
+      "id": 100,
+      "name": "Protea",
+      "latin_name": "Protea cynaroides",
+      "description": "Floarea nationala sud-africana cu forme arhitecturale unice. Simbolizeaza curajul si transformarea.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkW3HPHRrmMI09raTkiPHdJa-VCFiz5yH01LDsY9myDbv_qmZjtb_RZ244XSCRgoy4nTQ-oXAivMoSHv8sSpmFTQ",
+      "color_id": 3,
+      "keywords": [
+        "curaj"
+      ]
+    },
+    "Queen Anne's Lace": {
+      "id": 112,
+      "name": "Queen Anne's Lace",
+      "latin_name": "Daucus carota",
+      "description": "Floarea salbatica clasica cu dantela naturala. Simbolizeaza sanctuarul si protectia.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Daucus_carota_May_2008-1_edit.jpg",
+      "color_id": 2,
+      "keywords": []
+    },
+    "Ramuri de Maslin": {
+      "id": 155,
+      "name": "Ramuri de Maslin",
+      "latin_name": "Olea europaea",
+      "description": "Ramurile mediteraneene simbolizând pacea. Simbolizeaza pacea si întelepciunea.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrm1u9KP6Hm_0-4jUrQja5a4tKuhRFvDZPEQ&s",
+      "color_id": 8,
+      "keywords": [
+        "pace"
+      ]
+    },
+    "Ranunculus": {
+      "id": 88,
+      "name": "Ranunculus",
+      "latin_name": "Ranunculus asiaticus",
+      "description": "Floare cu multiple straturi de petale, extrem de feminina. Simbolizeaza farmecul radiant si atractia magnetica.",
+      "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSeqBPKWfIqcG_eC89z5p8ulmJ0flDb2wjEz6JXVrlPYiIKBfuIOfxXwpupe0uvrgRrBu-rBdWWnw8bUntr4Ykx0g",
+      "color_id": 4,
+      "keywords": []
+    },
+    "Rozmarin Decorativ": {
+      "id": 156,
+      "name": "Rozmarin Decorativ",
+      "latin_name": "Rosmarinus officinalis",
+      "description": "Planta aromatica cu simbolism de memorie. Simbolizeaza amintirea si fidelitatea.",
+      "image_url": "https://docaperene.ro/cdn/shop/files/Rosmarinusofficinalis.jpg?v=1740486280",
+      "color_id": 8,
+      "keywords": []
+    },
+    "Ruscus": {
+      "id": 149,
+      "name": "Ruscus",
+      "latin_name": "Ruscus aculeatus",
+      "description": "Verdeturile mediteraneene cele mai durabile. Simbolizeaza rezistenta si durabilitatea.",
+      "image_url": "https://innocentiemangonipiante.it/wp-content/themes/yootheme/cache/14/1642694478-1428aff6.jpeg",
+      "color_id": 8,
+      "keywords": []
+    },
+    "Sakura": {
+      "id": 137,
+      "name": "Sakura",
+      "latin_name": "Prunus serrulata",
+      "description": "Floarea simbolica japoneza a primaverii. Simbolizeaza frumusetea efemera a vietii.",
+      "image_url": "https://bs.plantnet.org/image/o/ed305e2237e1a8a7800487692859d853ca99a52f",
+      "color_id": 3,
+      "keywords": [
+        "frumusete"
+      ]
+    },
+    "Scabiosa": {
+      "id": 109,
+      "name": "Scabiosa",
+      "latin_name": "Scabiosa atropurpurea",
+      "description": "Floare cu aspect texturat, populara în stilul rustic. Simbolizeaza dragostea nenorocita si tristetea frumoasa.",
+      "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcREtvOdzMXaFc97ayL0Zfg_F_O2esj873aB7Em-tu3Dqc6uPW0cB30GZmaV2HLlMEnCsqMQoggRlZc_GMFMsUHAIg",
+      "color_id": 6,
+      "keywords": [
+        "dragoste",
+        "tristete"
+      ]
+    },
+    "Solidago": {
+      "id": 114,
+      "name": "Solidago",
+      "latin_name": "Solidago spp.",
+      "description": "Floare salbatica de toamna cu panicula densa. Simbolizeaza precautia si encouragementul.",
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5d9cf6657cc1730bfc60e055/1601138887377-4MGSSG6VHEJ1FH84HDDS/Goldenrod_1.JPG",
+      "color_id": 4,
+      "keywords": []
+    },
+    "Stephanotis": {
+      "id": 98,
+      "name": "Stephanotis",
+      "latin_name": "Stephanotis floribunda",
+      "description": "Floarea de nunta tropicala, wedding vine clasica. Simbolizeaza fericirea în casatorie.",
+      "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSDbwfXtFgzr1tggPUwrOGVTunrfWtP_z6rrP9tLCv88GcPIfH0qNxFDNCO0BhCFmzrdF54OTF2yBDx53x0swSHeA",
+      "color_id": 2,
+      "keywords": [
+        "fericire",
+        "nunta",
+        "casatorie"
+      ]
+    },
+    "Stocks": {
+      "id": 95,
+      "name": "Stocks",
+      "latin_name": "Matthiola incana",
+      "description": "Floare cu parfum de seara intens si persistent. Simbolizeaza frumusetea durabila.",
+      "image_url": "https://www.evanthia.nl/_next/image?url=https%3A%2F%2Fcms.evanthia.nl%2Fresources%2Fuploads%2F2021%2F02%2FCentum_Lavender_Matthiola_Incana_Violier_Evanthia_LR_01.jpg&w=1200&q=75",
+      "color_id": 6,
+      "keywords": [
+        "frumusete"
+      ]
+    },
+    "Streliția": {
+      "id": 64,
+      "name": "Streliția",
+      "latin_name": "Strelitzia reginae",
+      "description": "Cunoscută și sub numele de \"Pasărea Paradisului\", streliția este o floare exotică spectaculoasă, originară din Africa de Sud. Simbolizează libertatea, frumusețea și excelența.",
+      "image_url": "https://www.magnolia.ro/blog/wp-content/uploads/2016/03/strelizia-reginae-magnolia.jpg",
+      "color_id": 5,
+      "keywords": []
+    },
+    "Sunatoare": {
+      "id": 134,
+      "name": "Sunatoare",
+      "latin_name": "Trifolium pratense",
+      "description": "Floarea de trifoi din pajistile românesti. Simbolizeaza norocul si abundenta.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Trifolium_pratense_-_Keila2.jpg/500px-Trifolium_pratense_-_Keila2.jpg",
+      "color_id": 3,
+      "keywords": []
+    },
+    "Sweet Pea": {
+      "id": 96,
+      "name": "Sweet Pea",
+      "latin_name": "Lathyrus odoratus",
+      "description": "Floare cataratoare cu parfum dulce de vanilie. Simbolizeaza placerile delicate.",
+      "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/7d0612e1e50abbf91de5d774a34ee74a.jpg",
+      "color_id": 3,
+      "keywords": []
+    },
+    "Tei în Floare": {
+      "id": 132,
+      "name": "Tei în Floare",
+      "latin_name": "Tilia cordata",
+      "description": "Floarea medicinala traditionala româneasca. Simbolizeaza vindecarea traditionala.",
+      "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQe-dWUtDDkwpMJDv810roh43c9NtajVrRsmYY3QerCLdp3EKvowEi83AbaRUrWyU62wmbJxoBD5o7Ovw_GYnw2Vw",
+      "color_id": 4,
+      "keywords": []
+    },
+    "Thistle": {
+      "id": 115,
+      "name": "Thistle",
+      "latin_name": "Cirsium vulgare",
+      "description": "Floarea scotiana cu texturi spinos-decorative. Simbolizeaza nobleta si protectia.",
+      "image_url": "https://wcbotanicalclub.org/wp-content/uploads/2019/08/bull-thistle-cirsium-vulgare-02-kb.jpg?w=506",
+      "color_id": 6,
+      "keywords": []
+    },
+    "Timus": {
+      "id": 159,
+      "name": "Timus",
+      "latin_name": "Thymus vulgaris",
+      "description": "Planta aromatica cu flori mici si parfum intens. Simbolizeaza curajul si puterea interioara.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTch1TN8QZ58n3kOzIcxdsJxUAX-QYfgaOem2pGOPdbLcByw_nlI9o4v5fuRbD8g5kWdO9QWX239zuJIdX1o7oD0g",
+      "color_id": 6,
+      "keywords": [
+        "curaj"
+      ]
+    },
+    "Trandafir Alb": {
+      "id": 5,
+      "name": "Trandafir Alb",
+      "latin_name": "Rosa",
+      "description": "Trandafirul alb simbolizează puritatea, inocența și noile începuturi.",
+      "image_url": "https://images.pexels.com/photos/2166160/pexels-photo-2166160.jpeg",
+      "color_id": 2,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    "Trandafir de Damasc": {
+      "id": 130,
+      "name": "Trandafir de Damasc",
+      "latin_name": "Rosa damascena",
+      "description": "Trandafirul pentru esensa româneasca de trandafir. Simbolizeaza esenta si autenticitatea.",
+      "image_url": "https://www.famousroses.eu/cdn/shop/files/rosa-damascena-trigintipetala-trandafir-pentru-dulceata-si-ulei-esential-butasi-trandafiri-gradina-in-ghiveci-sau-radacina-libera-537808.jpg?v=1721375320&width=720",
+      "color_id": 3,
+      "keywords": []
+    },
+    "Trandafir Galben": {
+      "id": 82,
+      "name": "Trandafir Galben",
+      "latin_name": "Rosa foetida",
+      "description": "Trandafirul galben simbolizeaza prietenia, bucuria ?i optimismul. Perfect pentru prieteni ?i momente de celebrare.",
+      "image_url": "https://bulbidevis.ro/183-large_default/trandafir-de-gradina-catarator-galben.jpg",
+      "color_id": 4,
+      "keywords": []
+    },
+    "Trandafir Roșu": {
+      "id": 1,
+      "name": "Trandafir Roșu",
+      "latin_name": "Rosa",
+      "description": "Trandafirul roșu este adesea asociat cu pasiunea arzătoare, iubirea profundă și romantismul. Culoarea sa vibrantă și forma sa delicată îl fac să fie considerat un simbol al frumuseții și eleganței.",
+      "image_url": "https://curiozitati.md/img/trandafiri/trandafir_rosu.jpg",
+      "color_id": 1,
+      "keywords": [
+        "iubire",
+        "pasiune",
+        "romantism"
+      ]
+    },
+    "Trandafir Roz": {
+      "id": 6,
+      "name": "Trandafir Roz",
+      "latin_name": "Rosa",
+      "description": "Trandafirul roz transmite admirație, recunoștință și bucurie.",
+      "image_url": "https://www.magnolia.ro/blog/images/gallery/istoria-si-semnificatia-trandafirului-roz/istoria_si_semnificatia_trandafirului_roz.jpg",
+      "color_id": 3,
+      "keywords": [
+        "bucurie"
+      ]
+    },
+    "Trandafir Salbatic": {
+      "id": 133,
+      "name": "Trandafir Salbatic",
+      "latin_name": "Rosa canina",
+      "description": "Macesul traditional cu flori si fructe. Simbolizeaza sanatatea si longevitatea.",
+      "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRlnhvdRzt5ykfTdnoCO5R6FaBjBCxtbjnxkQ8z-d3kLOUyS5CFZJrLjqxmrnPIvzViTP4SBubs4EcAGs-dWXLQNg",
+      "color_id": 3,
+      "keywords": []
+    },
+    "Trandafirul Chinezesc": {
+      "id": 65,
+      "name": "Trandafirul Chinezesc",
+      "latin_name": "Hibiscus rosa-sinensis",
+      "description": "Hibiscusul este o floare tropicală cu petale mari, intense coloristic. Simbolizează frumusețea efemeră, pasiunea și dragostea delicată.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Hibiscus_Brilliant.jpg/1280px-Hibiscus_Brilliant.jpg",
+      "color_id": 1,
+      "keywords": [
+        "dragoste",
+        "pasiune"
+      ]
+    },
+    "Tuberose": {
+      "id": 97,
+      "name": "Tuberose",
+      "latin_name": "Polianthes tuberosa",
+      "description": "Floarea cu cel mai intens parfum de noapte. Simbolizeaza senzualitatea si misterul.",
+      "image_url": "https://order.eurobulb.nl/549-large_default/polianthes-tuberosa-the-pearl-10524.jpg",
+      "color_id": 2,
+      "keywords": [
+        "mister"
+      ]
+    },
+    "Viorele": {
+      "id": 122,
+      "name": "Viorele",
+      "latin_name": "Viola odorata",
+      "description": "Floare mica si parfumata, simbolul modestiei. Simbolizeaza modestia si fidelitatea.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Viola_odorata_fg01.JPG",
+      "color_id": 6,
+      "keywords": []
+    },
+    "Visin în Floare": {
+      "id": 129,
+      "name": "Visin în Floare",
+      "latin_name": "Prunus cerasus",
+      "description": "Floarea traditionala a satului românesc. Simbolizeaza traditiile si patrimoniul cultural.",
+      "image_url": "https://www.treesandshrubsonline.org/site/assets/files/10954/prunus-cerasus-rhexii-1.jpg",
+      "color_id": 2,
+      "keywords": []
+    },
+    "Yarrow": {
+      "id": 119,
+      "name": "Yarrow",
+      "latin_name": "Achillea millefolium",
+      "description": "Planta medicinala cu flori în corimba. Simbolizeaza vindecarea si curajul.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_2gc2axiFn9gtJokCz7TSx-DtZGyIvfr5uuE-GYL9cuI1LlPhBUbfSTVN02TJHm2ZAeZFcrHeDE10cej5Mfwvzw",
+      "color_id": 4,
+      "keywords": [
+        "curaj"
+      ]
+    },
+    "Zambilă Albă": {
+      "id": 27,
+      "name": "Zambilă Albă",
+      "latin_name": "Hyacinthus orientalis",
+      "description": "Zambilele albe simbolizează puritatea și inocența.",
+      "image_url": "https://www.prietenulgradinii.ro/cdn/products/bulbi-zambile-albe-snow-crystal-bz013-760.webp",
+      "color_id": 2,
+      "keywords": [
+        "puritate"
+      ]
+    },
+    "Zambilă Albastră": {
+      "id": 14,
+      "name": "Zambilă Albastră",
+      "latin_name": "Hyacinthus orientalis",
+      "description": "Zambilele albastre pot simboliza constanța, sinceritatea și calmul.",
+      "image_url": "https://verdena.ro/cdn/shop/products/zambila-struguras-albastru-muscari-armeniacum-ghiveci-cu-12-bulbi-844801.jpg?v=1708075088&width=1500",
+      "color_id": 7,
+      "keywords": [
+        "sinceritate"
+      ]
+    },
+    "Zambilă galbenă": {
+      "id": 80,
+      "name": "Zambilă galbenă",
+      "latin_name": "Hyacinthus orientalis",
+      "description": "Aceste plante sunt cunoscute si ca un simbol al geloziei.",
+      "image_url": "https://secretgarden.ro/cdn/shop/products/Hyacinthus-Gipsy-princess.jpg?v=1672844824",
+      "color_id": 4,
+      "keywords": []
+    },
+    "Zambila Roz": {
+      "id": 26,
+      "name": "Zambila Roz",
+      "latin_name": "Hyacinthus orientalis",
+      "description": "Zambilele roz simbolizează jocul și bucuria.",
+      "image_url": "https://buchetefloria.wordpress.com/wp-content/uploads/2015/02/zambila-roz.jpg",
+      "color_id": 3,
+      "keywords": []
+    },
+    "Zinnia": {
+      "id": 111,
+      "name": "Zinnia",
+      "latin_name": "Zinnia elegans",
+      "description": "Floare vesela si rezistenta la caldura. Simbolizeaza gândurile despre prietenii absenti.",
+      "image_url": "https://www.plantazia.ro/cdn/shop/files/Seminte-Flori-Carciumarese-_Zinnia-elegans_-galbene1_1280x.gif?v=1684414991",
+      "color_id": 4,
+      "keywords": []
+    }
+  }
+}
