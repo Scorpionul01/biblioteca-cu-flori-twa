@@ -1,0 +1,20 @@
+{
+  "timestamp": "20250616_231913",
+  "accuracy": 0.48148148148148145,
+  "categories": [
+    "apology",
+    "birthday",
+    "celebration",
+    "friendship",
+    "gratitude",
+    "mothersday",
+    "romantic",
+    "sympathy",
+    "wellness"
+  ],
+  "training_samples": 135,
+  "model_type": "RandomForestClassifier",
+  "vectorizer_type": "TfidfVectorizer",
+  "fresh_model": true,
+  "compatible": true
+}
